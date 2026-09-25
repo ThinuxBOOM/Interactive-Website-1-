@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Wuthering Waves interactive fan website — explore resonators, convene, and team building on Solaris-3." />
+  <title>Wuthering Waves — Solaris-3 Fan Hub</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <header>
+    <nav aria-label="Primary">
+      <a class="nav-brand" href="#hero">Wuthering <span>Waves</span> · Solaris-3</a>
+      <ul class="nav-links">
+        <li><a href="#hero">Hero</a></li>
+        <li><a href="#resonators">Resonators</a></li>
+        <li><a href="#convene">Convene</a></li>
+        <li><a href="#team">Team</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ================= HERO ================= -->
+    <section id="hero" aria-labelledby="hero-title">
+      <canvas id="tacet-canvas" aria-hidden="true"></canvas>
+      <div class="hero-content">
+        <span class="section-eyebrow">Solaris-3 · Tacet Field Detected</span>
+        <h1 id="hero-title">RIDE THE TIDES OF RESONANCE</h1>
+        <p id="hero-subtitle">An interactive fan hub for Wuthering Waves — browse Resonators, simulate Convene pulls, and assemble your ultimate Solaris-3 squad.</p>
+        <div id="hero-cta">
+          <a class="btn btn-primary" href="#resonators">Explore Resonators</a>
+          <a class="btn btn-gold" href="#convene">Try Your Convene</a>
+        </div>
+        <div class="scroll-cue" aria-hidden="true">Scroll</div>
+      </div>
+      <svg class="waves" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+        <path class="wave-path" d="M0,64 C240,110 480,20 720,60 C960,100 1200,30 1440,70 L1440,120 L0,120 Z" fill="rgba(103,232,249,0.10)"></path>
+        <path class="wave-path" d="M0,80 C260,120 520,40 760,75 C1000,110 1240,50 1440,85 L1440,120 L0,120 Z" fill="rgba(103,232,249,0.06)"></path>
+      </svg>
+    </section>
+
+    <!-- ================= RESONATORS ================= -->
+    <section id="resonators" aria-labelledby="resonators-heading">
+      <span class="section-eyebrow">Resonator Database</span>
+      <h2 id="resonators-heading">Resonators of Solaris-3</h2>
+      <p class="lead">Filter by element or weapon, then select a Resonator for full details. Roster data loads from <code>data/resonators.json</code>.</p>
+
+      <div id="filter-bar" role="toolbar" aria-label="Resonator filters">
+        <div class="filter-row" aria-label="Filter by element">
+          <span class="filter-label" id="filter-element-label">Element</span>
+          <button class="filter-btn active" data-filter="All" aria-pressed="true">All</button>
+          <button class="filter-btn" data-filter="Aero" aria-pressed="false">Aero</button>
+          <button class="filter-btn" data-filter="Glacio" aria-pressed="false">Glacio</button>
+          <button class="filter-btn" data-filter="Fusion" aria-pressed="false">Fusion</button>
+          <button class="filter-btn" data-filter="Electro" aria-pressed="false">Electro</button>
+          <button class="filter-btn" data-filter="Spectro" aria-pressed="false">Spectro</button>
+          <button class="filter-btn" data-filter="Havoc" aria-pressed="false">Havoc</button>
+        </div>
+        <div class="filter-row" aria-label="Filter by weapon">
+          <span class="filter-label" id="filter-weapon-label">Weapon</span>
+          <button class="filter-btn active" data-weapon="All" aria-pressed="true">All</button>
+          <button class="filter-btn" data-weapon="Sword" aria-pressed="false">Sword</button>
+          <button class="filter-btn" data-weapon="Broadblade" aria-pressed="false">Broadblade</button>
+          <button class="filter-btn" data-weapon="Pistols" aria-pressed="false">Pistols</button>
+          <button class="filter-btn" data-weapon="Gauntlets" aria-pressed="false">Gauntlets</button>
+          <button class="filter-btn" data-weapon="Rectifier" aria-pressed="false">Rectifier</button>
+        </div>
+      </div>
+
+      <div id="resonator-grid" aria-live="polite">
+        <noscript><p>Enable JavaScript to browse the Resonator roster.</p></noscript>
+      </div>
+
+      <div id="resonator-modal" class="hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div id="modal-card">
+          <button id="modal-close" aria-label="Close details">✕</button>
+          <!-- js/resonators.js renders details here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONVENE ================= -->
+    <section id="convene" aria-labelledby="convene-heading">
+      <span class="section-eyebrow">Gacha Simulator</span>
+      <h2 id="convene-heading">Convene Summoning</h2>
+      <p class="lead">Test your luck with a fan-made Convene simulator. Pity is tracked locally — no real currency involved.</p>
+      <div class="convene-panel">
+        <div class="convene-actions">
+          <button id="pull-1" class="btn btn-primary" type="button">Convene ×1</button>
+          <button id="pull-10" class="btn btn-gold" type="button">Convene ×10</button>
+          <button id="clear-history" class="btn btn-ghost" type="button">Clear History</button>
+        </div>
+        <div id="pity-counter" aria-live="polite">Pity: <strong>0</strong> · 5★ guaranteed within 80 pulls.</div>
+        <div id="convene-results" aria-live="polite"></div>
+        <ul id="convene-history" aria-label="Convene history"></ul>
+      </div>
+    </section>
+
+    <!-- ================= TEAM ================= -->
+    <section id="team" aria-labelledby="team-heading">
+      <span class="section-eyebrow">Squad Builder</span>
+      <h2 id="team-heading">Assemble Your Team</h2>
+      <p class="lead">Pick up to three Resonators. Elemental resonance bonuses update automatically.</p>
+      <div class="team-panel">
+        <div id="team-slots">
+          <div class="team-slot" data-slot="0"><span class="slot-empty">Slot 1 — empty</span></div>
+          <div class="team-slot" data-slot="1"><span class="slot-empty">Slot 2 — empty</span></div>
+          <div class="team-slot" data-slot="2"><span class="slot-empty">Slot 3 — empty</span></div>
+        </div>
+        <div id="team-bonus" aria-live="polite">No resonance yet — add Resonators to unlock team bonuses.</div>
+        <div id="roster-picker" aria-label="Resonator roster picker"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Wuthering Waves — Solaris-3 Fan Hub.</strong> Unofficial fan project for educational and entertainment purposes only. Not affiliated with or endorsed by Kuro Games.</p>
+    <p>Wuthering Waves and all related characters, names, and assets are trademarks of their respective owners.</p>
+  </footer>
+
+  <!-- Single module entry point: js/main.js imports and initializes all feature modules. -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,186 @@
+[
+  {
+    "id": "rover",
+    "name": "Rover",
+    "element": "Spectro",
+    "weapon": "Sword",
+    "rarity": 5,
+    "role": "Hybrid DPS",
+    "description": "The mysterious Resonator who awakened on the shores of Solaris-3. Rover wields the power of Spectro and adapts to any team, able to resonate with Havoc and Aero frequencies as their journey unfolds.",
+    "skills": [
+      {
+        "name": "Resonating Slashes",
+        "description": "Basic Attack — Unleashes up to 4 consecutive sword strikes dealing Spectro DMG."
+      },
+      {
+        "name": "Resonance Liberation: Echoing Wavelength",
+        "description": "Deals massive Spectro DMG in a wide arc and grants Rover Diminutive Sound stacks, boosting the next Resonance Skill."
+      },
+      {
+        "name": "Cycle of Capture",
+        "description": "Resonance Skill — Fires a resonating wave that immobilizes Tacet Discords and restores Concerto Energy on hit."
+      }
+    ]
+  },
+  {
+    "id": "jiyan",
+    "name": "Jiyan",
+    "element": "Aero",
+    "weapon": "Broadblade",
+    "rarity": 5,
+    "role": "Main DPS",
+    "description": "General of the Midnight Rangers. Jiyan rides the wind itself, sweeping battlefields with vast Aero strikes and rallying allies with unbreakable resolve.",
+    "skills": [
+      {
+        "name": "Lone Lance: Soaring",
+        "description": "Basic Attack — Performs up to 5 heavy broadblade swings dealing Aero DMG."
+      },
+      {
+        "name": "Emerald Storm: Unscathed",
+        "description": "Resonance Liberation — Enters Qingloong Unscaled mode, empowering attacks with sweeping wind lances."
+      },
+      {
+        "name": "Windqueller",
+        "description": "Resonance Skill — Summons a gale that pulls enemies together and deals Aero DMG over time."
+      }
+    ]
+  },
+  {
+    "id": "yinlin",
+    "name": "Yinlin",
+    "element": "Electro",
+    "weapon": "Rectifier",
+    "rarity": 5,
+    "role": "Sub-DPS",
+    "description": "Former Jinzhou Patroller turned shadow operative. Yinlin manipulates Electro puppets and punishment marks to punish enemies from afar.",
+    "skills": [
+      {
+        "name": "Zap String",
+        "description": "Basic Attack — Controls the puppet Blitz to lash enemies with up to 4 Electro strikes."
+      },
+      {
+        "name": "Thundering Wrath",
+        "description": "Resonance Liberation — Calls down chained lightning, detonating all Punishment Marks for burst Electro DMG."
+      },
+      {
+        "name": "Magnetic Roar",
+        "description": "Resonance Skill — Deals Electro DMG and applies Punishment Mark, enabling coordinated off-field damage."
+      }
+    ]
+  },
+  {
+    "id": "jinhsi",
+    "name": "Jinhsi",
+    "element": "Spectro",
+    "weapon": "Broadblade",
+    "rarity": 5,
+    "role": "Main DPS",
+    "description": "Magistrate of Jinzhou and the Sentinel's Appointed Resonator. Jinhsi channels the luminous will of Jué, ascending the heavens to deliver righteous Spectro judgment.",
+    "skills": [
+      {
+        "name": "Palm of Radiance",
+        "description": "Basic Attack — Performs up to 4 graceful broadblade strikes dealing Spectro DMG."
+      },
+      {
+        "name": "Purification of Light",
+        "description": "Resonance Liberation — Soars skyward and crashes down with Incandescent Ordinance, scaling with Incandescence stacks."
+      },
+      {
+        "name": "Trailing Lights",
+        "description": "Resonance Skill — Dashes forward in a beam of light, gaining Incandescence and dealing Spectro DMG."
+      }
+    ]
+  },
+  {
+    "id": "changli",
+    "name": "Changli",
+    "element": "Fusion",
+    "weapon": "Sword",
+    "rarity": 5,
+    "role": "Main DPS",
+    "description": "Counselor to the Magistrate and master of flame strategy. Changli weaves fire and feathers together, trading blows in a blazing dance of sacrifice and rebirth.",
+    "skills": [
+      {
+        "name": "Blazing Enlightenment",
+        "description": "Basic Attack — Performs up to 4 swift sword strikes dealing Fusion DMG."
+      },
+      {
+        "name": "Flaming Sacrifice",
+        "description": "Resonance Liberation — Unleashes Tripartite Flames and enters Flaming Heart state, amplifying Fusion DMG."
+      },
+      {
+        "name": "Obedience of Rules",
+        "description": "Resonance Skill — Summons a phoenix of flame that dives at enemies and grants Enflamement stacks."
+      }
+    ]
+  },
+  {
+    "id": "shorekeeper",
+    "name": "Shorekeeper",
+    "element": "Spectro",
+    "weapon": "Rectifier",
+    "rarity": 5,
+    "role": "Support / Healer",
+    "description": "Guardian of the Black Shores and keeper of the Tethys System. The Shorekeeper bends spacetime itself to shield allies, heal wounds, and amplify the whole team.",
+    "skills": [
+      {
+        "name": "Stellarealms",
+        "description": "Basic Attack — Conjures crystalline butterflies that deal Spectro DMG across up to 4 stages."
+      },
+      {
+        "name": "Endless Collapse",
+        "description": "Resonance Liberation — Expands the Stellarealm, healing allies over time and boosting Crit Rate and Crit DMG."
+      },
+      {
+        "name": "Chaos Theory",
+        "description": "Resonance Skill — Deploys a dimensional field that collects butterflies, restores HP, and buffs team DMG."
+      }
+    ]
+  },
+  {
+    "id": "verina",
+    "name": "Verina",
+    "element": "Spectro",
+    "weapon": "Rectifier",
+    "rarity": 5,
+    "role": "Support / Healer",
+    "description": "Former botanist of the New Federation, now blooming in Jinzhou. Verina nurtures allies with photosynthesis-powered healing and earthen Spectro protection.",
+    "skills": [
+      {
+        "name": "Cultivation",
+        "description": "Basic Attack — Fires vine-infused shots dealing Spectro DMG across up to 5 stages."
+      },
+      {
+        "name": "Bloom of Life",
+        "description": "Resonance Liberation — Causes a grand blossom that heals all nearby allies and boosts all-attribute damage."
+      },
+      {
+        "name": "Botanical Trial",
+        "description": "Resonance Skill — Plants a field of flowers that periodically heals the active Resonator."
+      }
+    ]
+  },
+  {
+    "id": "calcharo",
+    "name": "Calcharo",
+    "element": "Electro",
+    "weapon": "Broadblade",
+    "rarity": 5,
+    "role": "Main DPS",
+    "description": "Leader of the Ghost Hounds and exiled mercenary. Calcharo unleashes ruthless Electro combos, trading his own stillness for overwhelming phantom sword strikes.",
+    "skills": [
+      {
+        "name": "Extermination Order",
+        "description": "Basic Attack — Performs up to 4 brutal broadblade swings dealing Electro DMG."
+      },
+      {
+        "name": "Phantom Etching",
+        "description": "Resonance Liberation — Enters Death Messenger state, converting attacks to rapid phantom Electro slashes."
+      },
+      {
+        "name": "Hunting Mission",
+        "description": "Resonance Skill — Summons phantoms that strike together, dealing Electro DMG and generating Cruelty stacks."
+      }
+    ]
+  }
+]
