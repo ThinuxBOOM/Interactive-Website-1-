@@ -1,0 +1,287 @@
+[
+  {
+    "id": "ages-of-harvest",
+    "name": "Ages of Harvest",
+    "type": "Broadblade",
+    "rarity": 5,
+    "signatureFor": [
+      "jinhsi"
+    ]
+  },
+  {
+    "id": "verdant-summit",
+    "name": "Verdant Summit",
+    "type": "Broadblade",
+    "rarity": 5,
+    "signatureFor": [
+      "jiyan",
+      "geshu-lin"
+    ]
+  },
+  {
+    "id": "lustrous-razor",
+    "name": "Lustrous Razor",
+    "type": "Broadblade",
+    "rarity": 5,
+    "signatureFor": [
+      "calcharo"
+    ]
+  },
+  {
+    "id": "lily-broadblade",
+    "name": "Fleurdelys' Blade",
+    "type": "Broadblade",
+    "rarity": 5,
+    "signatureFor": [
+      "fleurdelys"
+    ]
+  },
+  {
+    "id": "heliocleaver",
+    "name": "Heliocleaver",
+    "type": "Broadblade",
+    "rarity": 4,
+    "signatureFor": [
+      "taoqi"
+    ]
+  },
+  {
+    "id": "broadblade-of-voyager",
+    "name": "Broadblade of Voyager",
+    "type": "Broadblade",
+    "rarity": 3,
+    "signatureFor": [
+      "lumi"
+    ]
+  },
+  {
+    "id": "emerald-of-genesis",
+    "name": "Emerald of Genesis",
+    "type": "Sword",
+    "rarity": 5,
+    "signatureFor": [
+      "rover",
+      "aemeath"
+    ]
+  },
+  {
+    "id": "blazing-brilliance",
+    "name": "Blazing Brilliance",
+    "type": "Sword",
+    "rarity": 5,
+    "signatureFor": [
+      "changli"
+    ]
+  },
+  {
+    "id": "unflickering-valor",
+    "name": "Unflickering Valor",
+    "type": "Sword",
+    "rarity": 5,
+    "signatureFor": [
+      "brant"
+    ]
+  },
+  {
+    "id": "defiers-thorn",
+    "name": "Defier's Thorn",
+    "type": "Sword",
+    "rarity": 5,
+    "signatureFor": [
+      "cartethyia"
+    ]
+  },
+  {
+    "id": "lumingloss",
+    "name": "Lumingloss",
+    "type": "Sword",
+    "rarity": 4,
+    "signatureFor": [
+      "sanhua",
+      "danjin",
+      "rebecca"
+    ]
+  },
+  {
+    "id": "sword-of-voyager",
+    "name": "Sword of Voyager",
+    "type": "Sword",
+    "rarity": 3,
+    "signatureFor": [
+      "yangyang",
+      "denia"
+    ]
+  },
+  {
+    "id": "static-mist",
+    "name": "Static Mist",
+    "type": "Pistols",
+    "rarity": 5,
+    "signatureFor": [
+      "aalto"
+    ]
+  },
+  {
+    "id": "the-last-dance",
+    "name": "The Last Dance",
+    "type": "Pistols",
+    "rarity": 5,
+    "signatureFor": [
+      "carlotta"
+    ]
+  },
+  {
+    "id": "undying-flame",
+    "name": "Undying Flame",
+    "type": "Pistols",
+    "rarity": 5,
+    "signatureFor": [
+      "galbrena"
+    ]
+  },
+  {
+    "id": "gamble-of-fate",
+    "name": "Gamble of Fate",
+    "type": "Pistols",
+    "rarity": 5,
+    "signatureFor": [
+      "scar"
+    ]
+  },
+  {
+    "id": "novaburst",
+    "name": "Novaburst",
+    "type": "Pistols",
+    "rarity": 4,
+    "signatureFor": [
+      "mortefi",
+      "sigrika"
+    ]
+  },
+  {
+    "id": "pistols-of-voyager",
+    "name": "Pistols of Voyager",
+    "type": "Pistols",
+    "rarity": 3,
+    "signatureFor": [
+      "chixia",
+      "hiyuki"
+    ]
+  },
+  {
+    "id": "veritys-handle",
+    "name": "Verity's Handle",
+    "type": "Gauntlets",
+    "rarity": 5,
+    "signatureFor": [
+      "xiangli-yao"
+    ]
+  },
+  {
+    "id": "blazing-justice",
+    "name": "Blazing Justice",
+    "type": "Gauntlets",
+    "rarity": 5,
+    "signatureFor": [
+      "zani"
+    ]
+  },
+  {
+    "id": "tragicomedy",
+    "name": "Tragicomedy",
+    "type": "Gauntlets",
+    "rarity": 5,
+    "signatureFor": [
+      "roccia"
+    ]
+  },
+  {
+    "id": "autumn-fist",
+    "name": "Autumn Fist",
+    "type": "Gauntlets",
+    "rarity": 5,
+    "signatureFor": [
+      "qiuyuan"
+    ]
+  },
+  {
+    "id": "frosty-valor",
+    "name": "Frosty Valor",
+    "type": "Gauntlets",
+    "rarity": 4,
+    "signatureFor": [
+      "lingyang",
+      "youhu"
+    ]
+  },
+  {
+    "id": "gauntlets-of-voyager",
+    "name": "Gauntlets of Voyager",
+    "type": "Gauntlets",
+    "rarity": 3,
+    "signatureFor": [
+      "yuanwu",
+      "luuk-herssen",
+      "xinyi"
+    ]
+  },
+  {
+    "id": "stringmaster",
+    "name": "Stringmaster",
+    "type": "Rectifier",
+    "rarity": 5,
+    "signatureFor": [
+      "yinlin"
+    ]
+  },
+  {
+    "id": "cosmic-ripples",
+    "name": "Cosmic Ripples",
+    "type": "Rectifier",
+    "rarity": 5,
+    "signatureFor": [
+      "verina",
+      "encore"
+    ]
+  },
+  {
+    "id": "stellar-symphony",
+    "name": "Stellar Symphony",
+    "type": "Rectifier",
+    "rarity": 5,
+    "signatureFor": [
+      "shorekeeper"
+    ]
+  },
+  {
+    "id": "rhapsody-of-ink",
+    "name": "Rhapsody in Ink",
+    "type": "Rectifier",
+    "rarity": 5,
+    "signatureFor": [
+      "zhezhi"
+    ]
+  },
+  {
+    "id": "whispers-of-sirens",
+    "name": "Whispers of Sirens",
+    "type": "Rectifier",
+    "rarity": 5,
+    "signatureFor": [
+      "cantarella",
+      "lucilla"
+    ]
+  },
+  {
+    "id": "rectifier-of-voyager",
+    "name": "Rectifier of Voyager",
+    "type": "Rectifier",
+    "rarity": 3,
+    "signatureFor": [
+      "baizhi",
+      "lynae",
+      "buling",
+      "abby"
+    ]
+  }
+]

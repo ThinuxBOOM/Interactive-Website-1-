@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Resonator roster — filter Solaris-3 resonators by element and weapon. Unofficial fan archive." />
+  <title>Resonators — Solaris-3 Fan Archive</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/pages.css" />
+</head>
+<body>
+  <a class="skip-link" href="#resonator-grid">Skip to roster</a>
+
+  <header data-shared-nav>
+    <nav class="nav-inner" aria-label="Primary">
+      <a class="nav-brand" href="index.html">Wuthering <span>Waves</span> · Solaris-3</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resonators.html">Resonators</a></li>
+        <li><a href="echoes.html">Echoes</a></li>
+        <li><a href="weapons.html">Weapons</a></li>
+        <li><a href="atlas.html">Atlas</a></li>
+        <li><a href="lore.html">Lore</a></li>
+        <li><a href="quests.html">Quests</a></li>
+        <li><a href="bestiary.html">Bestiary</a></li>
+        <li><a href="convene.html">Convene</a></li>
+        <li><a href="team.html">Team</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="page-resonators">
+    <div class="page-head">
+      <span class="section-eyebrow">Resonator Database</span>
+      <h1>Resonators of Solaris-3</h1>
+      <p class="lead">Filter by element or weapon, search by name, then open a dossier. Roster data loads from <code>data/resonators.json</code>.</p>
+    </div>
+
+    <section class="archive-section" aria-label="Resonator roster">
+      <div id="filter-bar" role="toolbar" aria-label="Resonator filters">
+        <div class="filter-row" aria-label="Filter by element">
+          <span class="filter-label">Element</span>
+          <button class="filter-btn active" data-filter="All" aria-pressed="true">All</button>
+          <button class="filter-btn" data-filter="Aero" aria-pressed="false">Aero</button>
+          <button class="filter-btn" data-filter="Glacio" aria-pressed="false">Glacio</button>
+          <button class="filter-btn" data-filter="Fusion" aria-pressed="false">Fusion</button>
+          <button class="filter-btn" data-filter="Electro" aria-pressed="false">Electro</button>
+          <button class="filter-btn" data-filter="Spectro" aria-pressed="false">Spectro</button>
+          <button class="filter-btn" data-filter="Havoc" aria-pressed="false">Havoc</button>
+        </div>
+        <div class="filter-row" aria-label="Filter by weapon">
+          <span class="filter-label">Weapon</span>
+          <button class="filter-btn active" data-weapon="All" aria-pressed="true">All</button>
+          <button class="filter-btn" data-weapon="Sword" aria-pressed="false">Sword</button>
+          <button class="filter-btn" data-weapon="Broadblade" aria-pressed="false">Broadblade</button>
+          <button class="filter-btn" data-weapon="Pistols" aria-pressed="false">Pistols</button>
+          <button class="filter-btn" data-weapon="Gauntlets" aria-pressed="false">Gauntlets</button>
+          <button class="filter-btn" data-weapon="Rectifier" aria-pressed="false">Rectifier</button>
+        </div>
+      </div>
+
+      <div class="search-row">
+        <label class="visually-hidden" for="search">Search resonators</label>
+        <input class="search-input" id="search" type="search" placeholder="Search resonators by name…" autocomplete="off" />
+      </div>
+
+      <div id="resonator-grid" class="archive-grid" aria-live="polite">
+        <noscript><p>Enable JavaScript to browse the Resonator roster.</p></noscript>
+      </div>
+      <!-- js/pages/resonators.js (roster agent): renders cards here, each linking to resonator.html?id=<id> -->
+    </section>
+  </main>
+
+  <footer data-shared-footer>
+    <p><strong>Wuthering Waves — Solaris-3 Fan Hub.</strong> Unofficial fan archive. All art © Kuro Games. Not affiliated.</p>
+    <p>Wuthering Waves and all related characters, names, and assets are trademarks of their respective owners. This is a non-commercial fan project for education and entertainment.</p>
+  </footer>
+
+  <script type="module" src="js/common/layout.js"></script>
+</body>
+</html>

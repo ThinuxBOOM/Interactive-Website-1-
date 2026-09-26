@@ -611,6 +611,79 @@ footer p { max-width: 70ch; margin: 0 auto 0.6rem; }
 /* ---------- Accessibility ---------- */
 :focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
 
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  z-index: 200;
+  background: var(--cyan);
+  color: #06202a;
+  padding: 0.6rem 1rem;
+  border-radius: 0 0 10px 10px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: top 0.15s ease;
+}
+.skip-link:focus { top: 0; }
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0; border: 0;
+  clip: rect(0 0 0 0); clip-path: inset(50%);
+  overflow: hidden; white-space: nowrap;
+}
+
+/* ---------- Shared multi-page shell ---------- */
+header nav.nav-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.8rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-toggle {
+  display: none;
+  margin-left: auto;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  color: var(--text);
+  border-radius: 10px;
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 0.45rem 0.65rem;
+  cursor: pointer;
+}
+.nav-toggle:hover { border-color: var(--cyan); }
+
+.nav-links a.active,
+.nav-links a[aria-current="page"] {
+  color: #06202a;
+  background: var(--cyan);
+  font-weight: 600;
+}
+
+/* Scroll-reveal (enhanced by js/common/reveal.js; visible by default, no-JS safe) */
+[data-reveal] { opacity: 1; }
+[data-reveal].revealed { opacity: 1; }
+.js-reveal-pending [data-reveal]:not(.revealed) { opacity: 0.001; }
+
+@media (max-width: 860px) {
+  .nav-toggle { display: inline-block; }
+  header nav.nav-inner { flex-wrap: wrap; }
+  header .nav-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.15rem;
+    margin: 0.4rem 0 0;
+  }
+  header .nav-links.open { display: flex; }
+  header .nav-links a { display: block; padding: 0.6rem 0.8rem; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after {

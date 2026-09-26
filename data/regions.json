@@ -1,0 +1,67 @@
+[
+  {
+    "nation": "Huanglong",
+    "sentinel": "Jué",
+    "regions": [
+      "Jinzhou",
+      "Desorock Highland",
+      "Wuming Bay",
+      "Whining Aix's Mire",
+      "Tiger's Maw"
+    ],
+    "areasCount": 42,
+    "factions": [
+      "Midnight Rangers",
+      "Huaxu Academy",
+      "Jinzhou Magistrate"
+    ]
+  },
+  {
+    "nation": "Black Shores",
+    "sentinel": "Shorekeeper (Warden)",
+    "regions": [
+      "Tethys Hub",
+      "Blake Bloom",
+      "Garden of the Lost",
+      "Star Observatory"
+    ],
+    "areasCount": 18,
+    "factions": [
+      "Black Shores Keepers",
+      "Bloom Bearers"
+    ]
+  },
+  {
+    "nation": "Rinascita",
+    "sentinel": "Imperator",
+    "regions": [
+      "Ragunna",
+      "Beohr Waters",
+      "Thessaleo Fells",
+      "Fagaceae Peninsula",
+      "Nimbus Sanctum",
+      "Averardo Vault"
+    ],
+    "areasCount": 38,
+    "factions": [
+      "Montelli Family",
+      "Fisalia Family",
+      "Order of the Deep",
+      "Troupe of Fools"
+    ]
+  },
+  {
+    "nation": "Septimont",
+    "sentinel": "Mercury",
+    "regions": [
+      "Septimont Arena",
+      "Wolfpack Grounds",
+      "Laurel Forum"
+    ],
+    "areasCount": 14,
+    "factions": [
+      "Septimont Senate",
+      "Arena Champions"
+    ]
+  }
+]

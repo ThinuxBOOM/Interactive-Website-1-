@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Echo archive and Sonata effect builder. Unofficial fan archive." />
+  <title>Echoes — Solaris-3 Fan Archive</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/pages.css" />
+</head>
+<body>
+  <a class="skip-link" href="#echo-grid">Skip to echo list</a>
+
+  <header data-shared-nav>
+    <nav class="nav-inner" aria-label="Primary">
+      <a class="nav-brand" href="index.html">Wuthering <span>Waves</span> · Solaris-3</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resonators.html">Resonators</a></li>
+        <li><a href="echoes.html">Echoes</a></li>
+        <li><a href="weapons.html">Weapons</a></li>
+        <li><a href="atlas.html">Atlas</a></li>
+        <li><a href="lore.html">Lore</a></li>
+        <li><a href="quests.html">Quests</a></li>
+        <li><a href="bestiary.html">Bestiary</a></li>
+        <li><a href="convene.html">Convene</a></li>
+        <li><a href="team.html">Team</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="page-echoes">
+    <div class="page-head">
+      <span class="section-eyebrow">Echo Archive</span>
+      <h1>Echoes &amp; Sonata Effects</h1>
+      <p class="lead">Captured remnants of Tacet Discords. Pick echoes below to preview Sonata set bonuses.</p>
+    </div>
+
+    <section class="archive-section" aria-label="Echo list">
+      <h2>Echo Index</h2>
+      <div id="echo-grid" class="archive-grid" aria-live="polite">
+        <noscript><p>Enable JavaScript to browse Echoes.</p></noscript>
+      </div>
+    </section>
+
+    <section class="archive-section" aria-label="Sonata builder">
+      <h2>Sonata Builder</h2>
+      <div class="sonata-panel">
+        <div id="sonata-builder">
+          <div class="sonata-slots" aria-label="Sonata echo slots"></div>
+        </div>
+        <div id="sonata-preview" aria-live="polite">Select Echoes to preview the active Sonata effect.</div>
+      </div>
+      <!-- js/pages/echoes.js (echo agent): renders #echo-grid, wires #sonata-builder → #sonata-preview -->
+    </section>
+  </main>
+
+  <footer data-shared-footer>
+    <p><strong>Wuthering Waves — Solaris-3 Fan Hub.</strong> Unofficial fan archive. All art © Kuro Games. Not affiliated.</p>
+    <p>Wuthering Waves and all related characters, names, and assets are trademarks of their respective owners. This is a non-commercial fan project for education and entertainment.</p>
+  </footer>
+
+  <script type="module" src="js/common/layout.js"></script>
+</body>
+</html>

@@ -55,20 +55,25 @@ function normalizeResonators(json) {
     .map((r) => ({
       id: String(r.id),
       name: String(r.name),
-      element: String(r.element ?? 'Unknown'),
+      element: String(r.element ?? r.attribute ?? 'Unknown'),
       role: String(r.role ?? 'DPS'),
     }));
 }
 
 async function loadResonators() {
-  try {
-    const res = await fetch('data/resonators.json');
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const normalized = normalizeResonators(await res.json());
-    return normalized ?? [...FALLBACK_RESONATORS];
-  } catch {
-    return [...FALLBACK_RESONATORS];
+  // Normalize to data/... with document-base fallbacks (matches other pages).
+  const urls = ['data/resonators.json', './data/resonators.json', '../data/resonators.json'];
+  for (const url of urls) {
+    try {
+      const res = await fetch(url);
+      if (!res.ok) continue;
+      const normalized = normalizeResonators(await res.json());
+      if (normalized) return normalized;
+    } catch {
+      // try next URL, then inline fallback
+    }
   }
+  return [...FALLBACK_RESONATORS];
 }
 
 function popSlot(slotEl) {
@@ -226,4 +231,15 @@ export async function initTeam() {
   });
 
   render();
+}
+
+// Auto-init when loaded via its own <script type="module"> tag,
+// while still allowing layout.js to import { initTeam } and call it.
+// Guarded so it only ever runs once (initTeam no-ops off the team page).
+if (typeof document !== 'undefined') {
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => initTeam(), { once: true });
+  } else {
+    initTeam();
+  }
 }

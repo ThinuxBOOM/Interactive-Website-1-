@@ -1,0 +1,56 @@
+[
+  {
+    "id": "freezing-frost",
+    "name": "Freezing Frost",
+    "bonus2": "Glacio DMG +15%.",
+    "bonus5": "Glacio DMG +30%; Basic and Heavy hits grant stacking Glacio bonus."
+  },
+  {
+    "id": "molten-rift",
+    "name": "Molten Rift",
+    "bonus2": "Fusion DMG +15%.",
+    "bonus5": "Fusion DMG +30%; Resonance Skill hits grant stacking Fusion bonus."
+  },
+  {
+    "id": "void-thunder",
+    "name": "Void Thunder",
+    "bonus2": "Electro DMG +15%.",
+    "bonus5": "Electro DMG +30%; Heavy and Liberation hits grant stacking Electro bonus."
+  },
+  {
+    "id": "sierra-gale",
+    "name": "Sierra Gale",
+    "bonus2": "Aero DMG +15%.",
+    "bonus5": "Aero DMG +30%; Intro Skill grants stacking Aero bonus."
+  },
+  {
+    "id": "celestial-light",
+    "name": "Celestial Light",
+    "bonus2": "Spectro DMG +15%.",
+    "bonus5": "Spectro DMG +30%; Intro Skill grants stacking Spectro bonus."
+  },
+  {
+    "id": "sun-sinking-eclipse",
+    "name": "Sun-sinking Eclipse",
+    "bonus2": "Havoc DMG +15%.",
+    "bonus5": "Havoc DMG +30%; Basic and Heavy hits grant stacking Havoc bonus."
+  },
+  {
+    "id": "rejuvenating-glow",
+    "name": "Rejuvenating Glow",
+    "bonus2": "Healing Bonus +15%.",
+    "bonus5": "Healing a team member raises whole-team ATK for a duration."
+  },
+  {
+    "id": "moonlit-clouds",
+    "name": "Moonlit Clouds",
+    "bonus2": "Energy Regen +10%.",
+    "bonus5": "Using Outro Skill grants team ATK boost and restores Concerto."
+  },
+  {
+    "id": "lingering-tunes",
+    "name": "Lingering Tunes",
+    "bonus2": "ATK +15%.",
+    "bonus5": "Staying on field grants stacking ATK; swapping extends the buff."
+  }
+]

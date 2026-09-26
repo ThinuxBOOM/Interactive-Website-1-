@@ -1,0 +1,177 @@
+[
+  {
+    "chapter": "Prologue",
+    "act": "I",
+    "title": "Utterance of Marvels",
+    "location": "Gorges of Spirits",
+    "unionReq": 0
+  },
+  {
+    "chapter": "Prologue",
+    "act": "II",
+    "title": "The Shorekeeper's Call",
+    "location": "Wuming Bay",
+    "unionReq": 0
+  },
+  {
+    "chapter": "Chapter 1",
+    "act": "I",
+    "title": "First Resonance",
+    "location": "Jinzhou",
+    "unionReq": 0
+  },
+  {
+    "chapter": "Chapter 1",
+    "act": "II",
+    "title": "Echoing March",
+    "location": "Jinzhou",
+    "unionReq": 5
+  },
+  {
+    "chapter": "Chapter 1",
+    "act": "III",
+    "title": "Ominous Star",
+    "location": "Desorock Highland",
+    "unionReq": 10
+  },
+  {
+    "chapter": "Chapter 1",
+    "act": "IV",
+    "title": "Clashing Blades",
+    "location": "Tiger's Maw",
+    "unionReq": 14
+  },
+  {
+    "chapter": "Chapter 1",
+    "act": "V",
+    "title": "Rewinding Raindrops",
+    "location": "Whining Aix's Mire",
+    "unionReq": 18
+  },
+  {
+    "chapter": "Chapter 1",
+    "act": "VI",
+    "title": "Grand Warstorm",
+    "location": "Gorges of Spirits",
+    "unionReq": 22
+  },
+  {
+    "chapter": "Chapter 1",
+    "act": "VII",
+    "title": "Thaw of Eons",
+    "location": "Mt. Firmament",
+    "unionReq": 26
+  },
+  {
+    "chapter": "Chapter 2",
+    "act": "Prologue",
+    "title": "Through the Sea Thou Break",
+    "location": "Black Shores",
+    "unionReq": 28
+  },
+  {
+    "chapter": "Chapter 2",
+    "act": "I",
+    "title": "The Sacred Path",
+    "location": "Ragunna",
+    "unionReq": 30
+  },
+  {
+    "chapter": "Chapter 2",
+    "act": "II",
+    "title": "Veils Off in Sun or Shadow",
+    "location": "Ragunna",
+    "unionReq": 32
+  },
+  {
+    "chapter": "Chapter 2",
+    "act": "III",
+    "title": "What Yesterday Wept, Today Doth Sing",
+    "location": "Beohr Waters",
+    "unionReq": 34
+  },
+  {
+    "chapter": "Chapter 2",
+    "act": "IV",
+    "title": "The Maiden, the Defier, the Death Crier",
+    "location": "Thessaleo Fells",
+    "unionReq": 36
+  },
+  {
+    "chapter": "Chapter 2",
+    "act": "V",
+    "title": "Greed and Merit",
+    "location": "Averardo Vault",
+    "unionReq": 38
+  },
+  {
+    "chapter": "Chapter 2",
+    "act": "VI",
+    "title": "Flames of Heart",
+    "location": "Fagaceae Peninsula",
+    "unionReq": 40
+  },
+  {
+    "chapter": "Chapter 2",
+    "act": "VII",
+    "title": "The Sacrifice",
+    "location": "Nimbus Sanctum",
+    "unionReq": 42
+  },
+  {
+    "chapter": "Chapter 2",
+    "act": "VIII",
+    "title": "To the Howling Depths",
+    "location": "Beohr Waters",
+    "unionReq": 44
+  },
+  {
+    "chapter": "Chapter 2",
+    "act": "IX",
+    "title": "The Sword and the Saint",
+    "location": "Ragunna",
+    "unionReq": 46
+  },
+  {
+    "chapter": "Chapter 2",
+    "act": "X",
+    "title": "Dawn Breaks",
+    "location": "Nimbus Sanctum",
+    "unionReq": 48
+  },
+  {
+    "chapter": "Chapter 2",
+    "act": "XI",
+    "title": "Storms and Oaths",
+    "location": "Septimont",
+    "unionReq": 50
+  },
+  {
+    "chapter": "Chapter 2",
+    "act": "XII",
+    "title": "The Last Laurel",
+    "location": "Septimont Arena",
+    "unionReq": 52
+  },
+  {
+    "chapter": "Chapter 3",
+    "act": "I",
+    "title": "Shadows of the Fractsidus",
+    "location": "Huanglong Outskirts",
+    "unionReq": 54
+  },
+  {
+    "chapter": "Chapter 3",
+    "act": "II",
+    "title": "The Coming Tide",
+    "location": "Black Shores",
+    "unionReq": 56
+  },
+  {
+    "chapter": "Chapter 3",
+    "act": "III",
+    "title": "Where Winds Meet",
+    "location": "Septimont",
+    "unionReq": 58
+  }
+]

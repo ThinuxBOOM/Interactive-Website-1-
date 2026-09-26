@@ -1,186 +1,1886 @@
 [
   {
-    "id": "rover",
-    "name": "Rover",
-    "element": "Spectro",
-    "weapon": "Sword",
-    "rarity": 5,
-    "role": "Hybrid DPS",
-    "description": "The mysterious Resonator who awakened on the shores of Solaris-3. Rover wields the power of Spectro and adapts to any team, able to resonate with Havoc and Aero frequencies as their journey unfolds.",
-    "skills": [
-      {
-        "name": "Resonating Slashes",
-        "description": "Basic Attack — Unleashes up to 4 consecutive sword strikes dealing Spectro DMG."
-      },
-      {
-        "name": "Resonance Liberation: Echoing Wavelength",
-        "description": "Deals massive Spectro DMG in a wide arc and grants Rover Diminutive Sound stacks, boosting the next Resonance Skill."
-      },
-      {
-        "name": "Cycle of Capture",
-        "description": "Resonance Skill — Fires a resonating wave that immobilizes Tacet Discords and restores Concerto Energy on hit."
-      }
-    ]
-  },
-  {
-    "id": "jiyan",
-    "name": "Jiyan",
-    "element": "Aero",
-    "weapon": "Broadblade",
-    "rarity": 5,
-    "role": "Main DPS",
-    "description": "General of the Midnight Rangers. Jiyan rides the wind itself, sweeping battlefields with vast Aero strikes and rallying allies with unbreakable resolve.",
-    "skills": [
-      {
-        "name": "Lone Lance: Soaring",
-        "description": "Basic Attack — Performs up to 5 heavy broadblade swings dealing Aero DMG."
-      },
-      {
-        "name": "Emerald Storm: Unscathed",
-        "description": "Resonance Liberation — Enters Qingloong Unscaled mode, empowering attacks with sweeping wind lances."
-      },
-      {
-        "name": "Windqueller",
-        "description": "Resonance Skill — Summons a gale that pulls enemies together and deals Aero DMG over time."
-      }
-    ]
-  },
-  {
-    "id": "yinlin",
-    "name": "Yinlin",
-    "element": "Electro",
-    "weapon": "Rectifier",
-    "rarity": 5,
-    "role": "Sub-DPS",
-    "description": "Former Jinzhou Patroller turned shadow operative. Yinlin manipulates Electro puppets and punishment marks to punish enemies from afar.",
-    "skills": [
-      {
-        "name": "Zap String",
-        "description": "Basic Attack — Controls the puppet Blitz to lash enemies with up to 4 Electro strikes."
-      },
-      {
-        "name": "Thundering Wrath",
-        "description": "Resonance Liberation — Calls down chained lightning, detonating all Punishment Marks for burst Electro DMG."
-      },
-      {
-        "name": "Magnetic Roar",
-        "description": "Resonance Skill — Deals Electro DMG and applies Punishment Mark, enabling coordinated off-field damage."
-      }
-    ]
-  },
-  {
     "id": "jinhsi",
     "name": "Jinhsi",
+    "rarity": 5,
+    "attribute": "Spectro",
     "element": "Spectro",
     "weapon": "Broadblade",
-    "rarity": 5,
+    "faction": "Jinzhou Magistrate",
+    "birthplace": "Jinzhou",
+    "rabelle": "Congenital",
+    "version": "1.1",
     "role": "Main DPS",
-    "description": "Magistrate of Jinzhou and the Sentinel's Appointed Resonator. Jinhsi channels the luminous will of Jué, ascending the heavens to deliver righteous Spectro judgment.",
+    "description": "Magistrate of Jinzhou who carries the Sentinel's blessing. She builds light charges with her team, then takes flight to unleash sweeping judgment.",
+    "forte": {
+      "name": "Luminal Synthesis",
+      "mark": "Forehead crest",
+      "spectrum": "Time flowing like a river"
+    },
     "skills": [
       {
-        "name": "Palm of Radiance",
-        "description": "Basic Attack — Performs up to 4 graceful broadblade strikes dealing Spectro DMG."
-      },
-      {
-        "name": "Purification of Light",
-        "description": "Resonance Liberation — Soars skyward and crashes down with Incandescent Ordinance, scaling with Incandescence stacks."
+        "name": "Duality of Light",
+        "description": "Basic combo of broadblade strikes that gather Incandescence."
       },
       {
         "name": "Trailing Lights",
-        "description": "Resonance Skill — Dashes forward in a beam of light, gaining Incandescence and dealing Spectro DMG."
-      }
-    ]
-  },
-  {
-    "id": "changli",
-    "name": "Changli",
-    "element": "Fusion",
-    "weapon": "Sword",
-    "rarity": 5,
-    "role": "Main DPS",
-    "description": "Counselor to the Magistrate and master of flame strategy. Changli weaves fire and feathers together, trading blows in a blazing dance of sacrifice and rebirth.",
-    "skills": [
-      {
-        "name": "Blazing Enlightenment",
-        "description": "Basic Attack — Performs up to 4 swift sword strikes dealing Fusion DMG."
+        "description": "Dashing strike that grants Incandescence and lifts Jinhsi skyward."
       },
       {
-        "name": "Flaming Sacrifice",
-        "description": "Resonance Liberation — Unleashes Tripartite Flames and enters Flaming Heart state, amplifying Fusion DMG."
-      },
-      {
-        "name": "Obedience of Rules",
-        "description": "Resonance Skill — Summons a phoenix of flame that dives at enemies and grants Enflamement stacks."
+        "name": "Purification of Light",
+        "description": "Liberation dive that spends Incandescence for massive Spectro damage."
       }
-    ]
+    ],
+    "signatureWeaponId": "ages-of-harvest"
   },
   {
     "id": "shorekeeper",
     "name": "Shorekeeper",
+    "rarity": 5,
+    "attribute": "Spectro",
     "element": "Spectro",
     "weapon": "Rectifier",
-    "rarity": 5,
+    "faction": "Black Shores",
+    "birthplace": "Black Shores",
+    "rabelle": "Unknown",
+    "version": "1.3",
     "role": "Support / Healer",
-    "description": "Guardian of the Black Shores and keeper of the Tethys System. The Shorekeeper bends spacetime itself to shield allies, heal wounds, and amplify the whole team.",
+    "description": "Warden of the Black Shores and its stellar matrix. She shapes dimensional fields that heal, shield, and amplify critical strikes.",
+    "forte": {
+      "name": "Stellarealm",
+      "mark": "Collarbone constellation",
+      "spectrum": "Stars collapsing into the sea"
+    },
     "skills": [
       {
         "name": "Stellarealms",
-        "description": "Basic Attack — Conjures crystalline butterflies that deal Spectro DMG across up to 4 stages."
-      },
-      {
-        "name": "Endless Collapse",
-        "description": "Resonance Liberation — Expands the Stellarealm, healing allies over time and boosting Crit Rate and Crit DMG."
+        "description": "Butterfly projectiles dealing staged Spectro damage."
       },
       {
         "name": "Chaos Theory",
-        "description": "Resonance Skill — Deploys a dimensional field that collects butterflies, restores HP, and buffs team DMG."
+        "description": "Deploys a healing field that gathers energy and buffs allies."
+      },
+      {
+        "name": "Endless Collapse",
+        "description": "Expands the realm, regenerating HP and raising team Crit stats."
       }
-    ]
+    ],
+    "signatureWeaponId": "stellar-symphony"
   },
   {
     "id": "verina",
     "name": "Verina",
+    "rarity": 5,
+    "attribute": "Spectro",
     "element": "Spectro",
     "weapon": "Rectifier",
-    "rarity": 5,
+    "faction": "Pioneer Association",
+    "birthplace": "New Federation",
+    "rabelle": "Natural",
+    "version": "1.0",
     "role": "Support / Healer",
-    "description": "Former botanist of the New Federation, now blooming in Jinzhou. Verina nurtures allies with photosynthesis-powered healing and earthen Spectro protection.",
+    "description": "Former botanist whose photosynthesis research became battlefield medicine. Her blooms grant steady healing and team-wide damage blessings.",
+    "forte": {
+      "name": "Photosynthesis",
+      "mark": "Upper arm vine",
+      "spectrum": "Spring rain over seedlings"
+    },
     "skills": [
       {
         "name": "Cultivation",
-        "description": "Basic Attack — Fires vine-infused shots dealing Spectro DMG across up to 5 stages."
-      },
-      {
-        "name": "Bloom of Life",
-        "description": "Resonance Liberation — Causes a grand blossom that heals all nearby allies and boosts all-attribute damage."
+        "description": "Vine shots dealing Spectro damage across five stages."
       },
       {
         "name": "Botanical Trial",
-        "description": "Resonance Skill — Plants a field of flowers that periodically heals the active Resonator."
+        "description": "Plants a flowerbed that periodically heals the active ally."
+      },
+      {
+        "name": "Bloom of Life",
+        "description": "Grand blossom healing all allies and boosting all damage."
       }
-    ]
+    ],
+    "signatureWeaponId": "cosmic-ripples"
+  },
+  {
+    "id": "yinlin",
+    "name": "Yinlin",
+    "rarity": 5,
+    "attribute": "Electro",
+    "element": "Electro",
+    "weapon": "Rectifier",
+    "faction": "Jinzhou Patrollers (ex)",
+    "birthplace": "Jinzhou",
+    "rabelle": "Congenital",
+    "version": "1.0",
+    "role": "Sub-DPS",
+    "description": "Ex-patroller who now hunts from the shadows with a puppet. She tags foes with punishment marks, then detonates them with chained lightning.",
+    "forte": {
+      "name": "Thundering Seal",
+      "mark": "Thigh sigil",
+      "spectrum": "Spider lilies in a storm"
+    },
+    "skills": [
+      {
+        "name": "Zap String",
+        "description": "Puppet lashes dealing multi-stage Electro damage."
+      },
+      {
+        "name": "Magnetic Roar",
+        "description": "Strike that applies Punishment Mark for follow-up hits."
+      },
+      {
+        "name": "Thundering Wrath",
+        "description": "Summons lightning that explodes all marks at once."
+      }
+    ],
+    "signatureWeaponId": "stringmaster"
+  },
+  {
+    "id": "jiyan",
+    "name": "Jiyan",
+    "rarity": 5,
+    "attribute": "Aero",
+    "element": "Aero",
+    "weapon": "Broadblade",
+    "faction": "Midnight Rangers",
+    "birthplace": "Huanglong",
+    "rabelle": "Mutant",
+    "version": "1.0",
+    "role": "Main DPS",
+    "description": "General of the Midnight Rangers who rides the wind like a dragon. His sweeping lances gather foes and turn defense into offense.",
+    "forte": {
+      "name": "Qingloong Unscaled",
+      "mark": "Back dragon scale",
+      "spectrum": "Azure dragon crossing clouds"
+    },
+    "skills": [
+      {
+        "name": "Lone Lance: Soaring",
+        "description": "Heavy broadblade swings dealing Aero damage."
+      },
+      {
+        "name": "Windqueller",
+        "description": "Gale vortex that pulls enemies and deals damage over time."
+      },
+      {
+        "name": "Emerald Storm",
+        "description": "Enters dragon mode, empowering strikes with wind lances."
+      }
+    ],
+    "signatureWeaponId": "verdant-summit"
+  },
+  {
+    "id": "changli",
+    "name": "Changli",
+    "rarity": 5,
+    "attribute": "Fusion",
+    "element": "Fusion",
+    "weapon": "Sword",
+    "faction": "Jinzhou Magistrate Office",
+    "birthplace": "Jinzhou",
+    "rabelle": "Congenital",
+    "version": "1.1",
+    "role": "Main DPS",
+    "description": "Strategist and counselor whose flames embody patience and sacrifice. She stacks embers through skill play, then burns bright in a reborn state.",
+    "forte": {
+      "name": "Enflamement",
+      "mark": "Shoulder feather",
+      "spectrum": "Phoenix ash in sunlight"
+    },
+    "skills": [
+      {
+        "name": "Blazing Enlightenment",
+        "description": "Swift sword combo dealing Fusion damage."
+      },
+      {
+        "name": "Obedience of Rules",
+        "description": "Phoenix dive that grants Enflamement stacks."
+      },
+      {
+        "name": "Flaming Sacrifice",
+        "description": "Triple flames that enter a self-empowering heart state."
+      }
+    ],
+    "signatureWeaponId": "blazing-brilliance"
   },
   {
     "id": "calcharo",
     "name": "Calcharo",
+    "rarity": 5,
+    "attribute": "Electro",
     "element": "Electro",
     "weapon": "Broadblade",
-    "rarity": 5,
+    "faction": "Ghost Hounds",
+    "birthplace": "New Federation",
+    "rabelle": "Mutant",
+    "version": "1.0",
     "role": "Main DPS",
-    "description": "Leader of the Ghost Hounds and exiled mercenary. Calcharo unleashes ruthless Electro combos, trading his own stillness for overwhelming phantom sword strikes.",
+    "description": "Chief of the Ghost Hounds mercenaries who honors every contract. He trades stillness for phantom blades that strike faster than sight.",
+    "forte": {
+      "name": "Death Messenger",
+      "mark": "Chest scar",
+      "spectrum": "Howling hound in thunder"
+    },
     "skills": [
       {
         "name": "Extermination Order",
-        "description": "Basic Attack — Performs up to 4 brutal broadblade swings dealing Electro DMG."
-      },
-      {
-        "name": "Phantom Etching",
-        "description": "Resonance Liberation — Enters Death Messenger state, converting attacks to rapid phantom Electro slashes."
+        "description": "Brutal broadblade combo dealing Electro damage."
       },
       {
         "name": "Hunting Mission",
-        "description": "Resonance Skill — Summons phantoms that strike together, dealing Electro DMG and generating Cruelty stacks."
+        "description": "Phantom summons that strike jointly and build Cruelty."
+      },
+      {
+        "name": "Phantom Etching",
+        "description": "Transforms into rapid phantom slashes with boosted damage."
+      }
+    ],
+    "signatureWeaponId": "lustrous-razor"
+  },
+  {
+    "id": "rover",
+    "name": "Rover",
+    "rarity": 5,
+    "attribute": "Spectro",
+    "element": "Spectro",
+    "weapon": "Sword",
+    "faction": "Independent",
+    "birthplace": "Unknown",
+    "rabelle": "Unknown",
+    "version": "1.0",
+    "role": "Hybrid DPS",
+    "description": "Traveler who awoke on the shore with no memory but vast potential. Able to attune to new elements, they anchor any team with flexible energy play.",
+    "forte": {
+      "name": "Wavelength",
+      "mark": "Palm waves",
+      "spectrum": "Tide returning to shore"
+    },
+    "skills": [
+      {
+        "name": "Resonating Slashes",
+        "description": "Four-stage sword combo dealing elemental damage."
+      },
+      {
+        "name": "Cycle of Capture",
+        "description": "Wave projectile that restrains foes and restores concerto."
+      },
+      {
+        "name": "Echoing Wavelength",
+        "description": "Wide arc burst granting stacks that empower the next skill."
+      }
+    ],
+    "signatureWeaponId": "emerald-of-genesis",
+    "forms": [
+      {
+        "form": "Spectro",
+        "attribute": "Spectro"
+      },
+      {
+        "form": "Havoc",
+        "attribute": "Havoc"
+      },
+      {
+        "form": "Aero",
+        "attribute": "Aero"
       }
     ]
+  },
+  {
+    "id": "encore",
+    "name": "Encore",
+    "rarity": 5,
+    "attribute": "Fusion",
+    "element": "Fusion",
+    "weapon": "Rectifier",
+    "faction": "New Federation",
+    "birthplace": "New Federation",
+    "rabelle": "Natural",
+    "version": "1.0",
+    "role": "Sub-DPS",
+    "description": "Cheerful storyteller trailed by plush companions Cloudy and Cosmos. Her tales turn woolly chaos into scorching area barrages.",
+    "forte": {
+      "name": "Dizzying Countdown",
+      "mark": "Cheek swirl",
+      "spectrum": "Sheep clouds at dusk"
+    },
+    "skills": [
+      {
+        "name": "Wooly Attack",
+        "description": "Plush-assisted blasts dealing Fusion damage."
+      },
+      {
+        "name": "Cloudy Frenzy",
+        "description": "Summons Cloudy for rapid supporting fire."
+      },
+      {
+        "name": "Cosmos Rave",
+        "description": "Unleashes Cosmos for a blazing finale with attack buffs."
+      }
+    ],
+    "signatureWeaponId": "cosmic-ripples"
+  },
+  {
+    "id": "lingyang",
+    "name": "Lingyang",
+    "rarity": 5,
+    "attribute": "Glacio",
+    "element": "Glacio",
+    "weapon": "Gauntlets",
+    "faction": "Liondance Troupe",
+    "birthplace": "Jinzhou",
+    "rabelle": "Congenital",
+    "version": "1.0",
+    "role": "Main DPS",
+    "description": "Lion dancer whose steps blend martial art and festival. He pounces with frosty vigor, chaining aerial strikes that freeze the rhythm of battle.",
+    "forte": {
+      "name": "Frosty Leap",
+      "mark": "Ankle bell",
+      "spectrum": "Snow lion in midair"
+    },
+    "skills": [
+      {
+        "name": "Striking Pounce",
+        "description": "Gauntlet combo dealing Glacio damage with lion strides."
+      },
+      {
+        "name": "Feral Gaze",
+        "description": "Leap that marks foes and boosts stride damage."
+      },
+      {
+        "name": "Raging Lion",
+        "description": "Empowered dance state with enhanced jumps and frost bursts."
+      }
+    ],
+    "signatureWeaponId": "frosty-valor"
+  },
+  {
+    "id": "jianxin",
+    "name": "Jianxin",
+    "rarity": 5,
+    "attribute": "Aero",
+    "element": "Aero",
+    "weapon": "Gauntlets",
+    "faction": "Fengyue Hand",
+    "birthplace": "Huanglong",
+    "rabelle": "Congenital",
+    "version": "1.0",
+    "role": "Support / Sustain",
+    "description": "Taoist monk who answers every challenge with calm palms. Her shields and wind fields gather enemies while sustaining allies.",
+    "forte": {
+      "name": "Chi Harmony",
+      "mark": "Palm circle",
+      "spectrum": "Still lake under wind"
+    },
+    "skills": [
+      {
+        "name": "Calming Palm",
+        "description": "Flowing palm strikes dealing Aero damage."
+      },
+      {
+        "name": "Primordial Chi Spiral",
+        "description": "Shielding field that absorbs hits and charges a counter."
+      },
+      {
+        "name": "Transcendent Light",
+        "description": "Burst that deals Aero damage and shields the team."
+      }
+    ],
+    "signatureWeaponId": "gauntlets-of-voyager"
+  },
+  {
+    "id": "aalto",
+    "name": "Aalto",
+    "rarity": 4,
+    "attribute": "Aero",
+    "element": "Aero",
+    "weapon": "Pistols",
+    "faction": "Black Shores",
+    "birthplace": "New Federation",
+    "rabelle": "Mutant",
+    "version": "1.0",
+    "role": "Sub-DPS",
+    "description": "Information broker who treats every fight like a negotiation. His mist gates bend bullets and speed allies through clever positioning.",
+    "forte": {
+      "name": "Mistcloak",
+      "mark": "Wrist fog",
+      "spectrum": "Mirage over water"
+    },
+    "skills": [
+      {
+        "name": "Rapid Shots",
+        "description": "Pistol volleys dealing Aero damage."
+      },
+      {
+        "name": "Misty Cover",
+        "description": "Deploys mist gates that boost damage passing through."
+      },
+      {
+        "name": "Flower in the Mist",
+        "description": "Shifts through mist, firing empowered scatter shots."
+      }
+    ],
+    "signatureWeaponId": "static-mist"
+  },
+  {
+    "id": "yangyang",
+    "name": "Yangyang",
+    "rarity": 4,
+    "attribute": "Aero",
+    "element": "Aero",
+    "weapon": "Sword",
+    "faction": "Midnight Rangers",
+    "birthplace": "Jinzhou",
+    "rabelle": "Natural",
+    "version": "1.0",
+    "role": "Support",
+    "description": "Gentle outrider who listens to the wind. Her feather blades group enemies and hasten allies with soft but steady currents.",
+    "forte": {
+      "name": "Soughing Wind",
+      "mark": "Ear feather",
+      "spectrum": "Dandelion drifting"
+    },
+    "skills": [
+      {
+        "name": "Feather as Blade",
+        "description": "Light sword combo dealing Aero damage."
+      },
+      {
+        "name": "Zephyr Domain",
+        "description": "Wind field that pulls foes and restores energy."
+      },
+      {
+        "name": "Windstorm",
+        "description": "Cyclone burst that groups enemies and buffs the team."
+      }
+    ],
+    "signatureWeaponId": "sword-of-voyager"
+  },
+  {
+    "id": "sanhua",
+    "name": "Sanhua",
+    "rarity": 4,
+    "attribute": "Glacio",
+    "element": "Glacio",
+    "weapon": "Sword",
+    "faction": "Jinzhou Guard",
+    "birthplace": "Jinzhou",
+    "rabelle": "Congenital",
+    "version": "1.0",
+    "role": "Sub-DPS",
+    "description": "Bodyguard whose sight was traded for clarity of snow. Her ice bursts detonate on cue, rewarding precise timing and quick swaps.",
+    "forte": {
+      "name": "Clarity of Snow",
+      "mark": "Blindfold frost",
+      "spectrum": "Icicle under moon"
+    },
+    "skills": [
+      {
+        "name": "Frostbite",
+        "description": "Sword combo dealing Glacio damage."
+      },
+      {
+        "name": "Eternal Frost",
+        "description": "Ice wall that explodes for burst damage."
+      },
+      {
+        "name": "Glacial Gaze",
+        "description": "Detonates ice for heavy damage and team buffs."
+      }
+    ],
+    "signatureWeaponId": "lumingloss"
+  },
+  {
+    "id": "baizhi",
+    "name": "Baizhi",
+    "rarity": 4,
+    "attribute": "Glacio",
+    "element": "Glacio",
+    "weapon": "Rectifier",
+    "faction": "Huaxu Academy",
+    "birthplace": "Jinzhou",
+    "rabelle": "Mutant",
+    "version": "1.0",
+    "role": "Support / Healer",
+    "description": "Academy researcher aided by the echo You'tan. Her frost tonics heal over time while slowing the enemy advance.",
+    "forte": {
+      "name": "You'tan Link",
+      "mark": "Glove circuit",
+      "spectrum": "Snow crane feather"
+    },
+    "skills": [
+      {
+        "name": "Destined Promise",
+        "description": "Glacio pulses dealing staged damage."
+      },
+      {
+        "name": "Emergency Plan",
+        "description": "Summons You'tan to heal and grant damage reduction."
+      },
+      {
+        "name": "Life Remainder",
+        "description": "Restorative burst cleansing and healing allies."
+      }
+    ],
+    "signatureWeaponId": "rectifier-of-voyager"
+  },
+  {
+    "id": "chixia",
+    "name": "Chixia",
+    "rarity": 4,
+    "attribute": "Fusion",
+    "element": "Fusion",
+    "weapon": "Pistols",
+    "faction": "Jinzhou Patrol",
+    "birthplace": "Jinzhou",
+    "rabelle": "Natural",
+    "version": "1.0",
+    "role": "Main DPS",
+    "description": "Junior patroller with endless energy and firecracker aim. She dashes through gunfire, stacking heat for explosive close-range shots.",
+    "forte": {
+      "name": "Heroic Blaze",
+      "mark": "Wrist spark",
+      "spectrum": "Fireworks over rooftops"
+    },
+    "skills": [
+      {
+        "name": "Pew Pew",
+        "description": "Rapid pistol combo dealing Fusion damage."
+      },
+      {
+        "name": "Blazing Shots",
+        "description": "Dash-shot that builds Daka stacks."
+      },
+      {
+        "name": "Boom Boom",
+        "description": "Finisher consuming stacks for massive area damage."
+      }
+    ],
+    "signatureWeaponId": "pistols-of-voyager"
+  },
+  {
+    "id": "mortefi",
+    "name": "Mortefi",
+    "rarity": 4,
+    "attribute": "Fusion",
+    "element": "Fusion",
+    "weapon": "Pistols",
+    "faction": "Huaxu Academy",
+    "birthplace": "Rinascita",
+    "rabelle": "Natural",
+    "version": "1.0",
+    "role": "Sub-DPS",
+    "description": "Dragon-obsessed scientist who paints targets for coordinated fire. His graffitied marks let allies strike twice with burning fury.",
+    "forte": {
+      "name": "Rage Transistor",
+      "mark": "Coat emblem",
+      "spectrum": "Dragon coil in ember"
+    },
+    "skills": [
+      {
+        "name": "Passionate Shots",
+        "description": "Pistol combo dealing Fusion damage."
+      },
+      {
+        "name": "D Rage",
+        "description": "Applies Fury Mark enabling coordinated attacks."
+      },
+      {
+        "name": "Violent Finale",
+        "description": "Dragon-shaped barrage detonating all marks."
+      }
+    ],
+    "signatureWeaponId": "novaburst"
+  },
+  {
+    "id": "danjin",
+    "name": "Danjin",
+    "rarity": 4,
+    "attribute": "Havoc",
+    "element": "Havoc",
+    "weapon": "Sword",
+    "faction": "Midnight Rangers (ex)",
+    "birthplace": "Jinzhou",
+    "rabelle": "Mutant",
+    "version": "1.0",
+    "role": "Main DPS",
+    "description": "Wandering blade who spends her own vitality for power. Her crimson slashes trade health for devastating returns.",
+    "forte": {
+      "name": "Crimson Bloom",
+      "mark": "Neck petal",
+      "spectrum": "Red spider lily"
+    },
+    "skills": [
+      {
+        "name": "Slash of Yearning",
+        "description": "Swift combo dealing Havoc damage."
+      },
+      {
+        "name": "Scarlet Burst",
+        "description": "Heavy slash consuming HP for bonus damage."
+      },
+      {
+        "name": "Crimson Sacrifice",
+        "description": "Liberation restoring health on hits while slashing widely."
+      }
+    ],
+    "signatureWeaponId": "lumingloss"
+  },
+  {
+    "id": "taoqi",
+    "name": "Taoqi",
+    "rarity": 4,
+    "attribute": "Havoc",
+    "element": "Havoc",
+    "weapon": "Broadblade",
+    "faction": "Jinzhou Border Guard",
+    "birthplace": "Jinzhou",
+    "rabelle": "Natural",
+    "version": "1.0",
+    "role": "Support",
+    "description": "Unhurried guard captain who never misses a tea break. Her timed parries shield allies and turn enemy blows into counters.",
+    "forte": {
+      "name": "Steadfast Guard",
+      "mark": "Shield crest",
+      "spectrum": "Tea steam in dusk"
+    },
+    "skills": [
+      {
+        "name": "Concealed Blade",
+        "description": "Measured broadblade combo dealing Havoc damage."
+      },
+      {
+        "name": "Iron Bulwark",
+        "description": "Timed guard granting shields and charge."
+      },
+      {
+        "name": "Unmoving Defense",
+        "description": "Counter stance reflecting damage and shielding team."
+      }
+    ],
+    "signatureWeaponId": "broadblade-of-voyager"
+  },
+  {
+    "id": "yuanwu",
+    "name": "Yuanwu",
+    "rarity": 4,
+    "attribute": "Electro",
+    "element": "Electro",
+    "weapon": "Gauntlets",
+    "faction": "Boxing Gym",
+    "birthplace": "Jinzhou",
+    "rabelle": "Natural",
+    "version": "1.0",
+    "role": "Sub-DPS",
+    "description": "Retired boxer turned thunder coach. His lightning cage punishes grouped foes with steady off-field shocks.",
+    "forte": {
+      "name": "Thunder Wedge",
+      "mark": "Knuckle coil",
+      "spectrum": "Storm over ring ropes"
+    },
+    "skills": [
+      {
+        "name": "Leihuang Fist",
+        "description": "Boxing combo dealing Electro damage."
+      },
+      {
+        "name": "Thunder Pillar",
+        "description": "Summons a lightning post for periodic shocks."
+      },
+      {
+        "name": "Burst Lightning",
+        "description": "Cage burst slowing foes and boosting coordinated hits."
+      }
+    ],
+    "signatureWeaponId": "gauntlets-of-voyager"
+  },
+  {
+    "id": "zhezhi",
+    "name": "Zhezhi",
+    "rarity": 5,
+    "attribute": "Glacio",
+    "element": "Glacio",
+    "weapon": "Rectifier",
+    "faction": "Ragunna Artist",
+    "birthplace": "Rinascita",
+    "rabelle": "Congenital",
+    "version": "1.2",
+    "role": "Sub-DPS",
+    "description": "Timid painter whose brushstrokes freeze living color. Her summoned inks echo ally attacks with glimmering coordination.",
+    "forte": {
+      "name": "Ink Reverie",
+      "mark": "Brush-tip frost",
+      "spectrum": "Painted goose in snow"
+    },
+    "skills": [
+      {
+        "name": "Spirit Ink",
+        "description": "Brush blasts dealing Glacio damage."
+      },
+      {
+        "name": "Tint of Life",
+        "description": "Summons ink spirits for coordinated strikes."
+      },
+      {
+        "name": "Ink Cascade",
+        "description": "Living painting bursting with area Glacio damage."
+      }
+    ],
+    "signatureWeaponId": "rhapsody-of-ink"
+  },
+  {
+    "id": "youhu",
+    "name": "Youhu",
+    "rarity": 4,
+    "attribute": "Glacio",
+    "element": "Glacio",
+    "weapon": "Gauntlets",
+    "faction": "Antique Shop",
+    "birthplace": "Jinzhou",
+    "rabelle": "Natural",
+    "version": "1.2",
+    "role": "Support",
+    "description": "Antique appraiser who settles debts with frosty palm tricks. Her lucky poise heals allies who time their strikes well.",
+    "forte": {
+      "name": "Lucky Poise",
+      "mark": "Sleeve coin",
+      "spectrum": "Frost on bronze mirror"
+    },
+    "skills": [
+      {
+        "name": "Frozen Appraisal",
+        "description": "Palm combo dealing Glacio damage."
+      },
+      {
+        "name": "Lucky Draw",
+        "description": "Fortune stance healing allies on coordinated hits."
+      },
+      {
+        "name": "Antique Finale",
+        "description": "Charm burst with team healing and frost damage."
+      }
+    ],
+    "signatureWeaponId": "frosty-valor"
+  },
+  {
+    "id": "carlotta",
+    "name": "Carlotta",
+    "rarity": 5,
+    "attribute": "Glacio",
+    "element": "Glacio",
+    "weapon": "Pistols",
+    "faction": "Montelli Family",
+    "birthplace": "Rinascita",
+    "rabelle": "Congenital",
+    "version": "2.0",
+    "role": "Main DPS",
+    "description": "Montelli heiress who treats combat like gallery art. Her crystal rounds stack elegance before a flawless execution.",
+    "forte": {
+      "name": "Final Stroke",
+      "mark": "Earring gem",
+      "spectrum": "Glass rose in frost"
+    },
+    "skills": [
+      {
+        "name": "Art of Elegance",
+        "description": "Stylish pistol combo dealing Glacio damage."
+      },
+      {
+        "name": "Custom Crystal",
+        "description": "Places crystals that amplify and detonate."
+      },
+      {
+        "name": "Death Knell",
+        "description": "Gallery barrage ending in a precise execution shot."
+      }
+    ],
+    "signatureWeaponId": "the-last-dance"
+  },
+  {
+    "id": "brant",
+    "name": "Brant",
+    "rarity": 5,
+    "attribute": "Fusion",
+    "element": "Fusion",
+    "weapon": "Sword",
+    "faction": "Troupe of Fools",
+    "birthplace": "Rinascita",
+    "rabelle": "Mutant",
+    "version": "2.1",
+    "role": "Support / DPS",
+    "description": "Acrobatic captain who laughs through fire. His anchor swings heal the crew while stoking team-wide bravery.",
+    "forte": {
+      "name": "Captain's Bravery",
+      "mark": "Anchor tattoo",
+      "spectrum": "Sail ablaze at dawn"
+    },
+    "skills": [
+      {
+        "name": "Voyager's Swing",
+        "description": "Anchor-sword combo dealing Fusion damage."
+      },
+      {
+        "name": "High Spirits",
+        "description": "Hearty shout healing allies and buffing attacks."
+      },
+      {
+        "name": "Grand Voyage",
+        "description": "Aerial anchor slam with healing and team buffs."
+      }
+    ],
+    "signatureWeaponId": "unflickering-valor"
+  },
+  {
+    "id": "lupa",
+    "name": "Lupa",
+    "rarity": 5,
+    "attribute": "Fusion",
+    "element": "Fusion",
+    "weapon": "Broadblade",
+    "faction": "Septimont Arena",
+    "birthplace": "Septimont",
+    "rabelle": "Congenital",
+    "version": "2.2",
+    "role": "Main DPS",
+    "description": "Arena champion who fights for glory and pack. Her wolfpack roars stack momentum into relentless fiery charges.",
+    "forte": {
+      "name": "Pack Hunt",
+      "mark": "Shoulder fang",
+      "spectrum": "Wildfire in arena dust"
+    },
+    "skills": [
+      {
+        "name": "Glory Seeker",
+        "description": "Broadblade combo dealing Fusion damage."
+      },
+      {
+        "name": "Wolf's Call",
+        "description": "Summons pack spirit boosting attack speed."
+      },
+      {
+        "name": "Champion's Roar",
+        "description": "Blazing charge dealing massive area damage."
+      }
+    ],
+    "signatureWeaponId": "heliocleaver"
+  },
+  {
+    "id": "cantarella",
+    "name": "Cantarella",
+    "rarity": 5,
+    "attribute": "Havoc",
+    "element": "Havoc",
+    "weapon": "Rectifier",
+    "faction": "Fisalia Family",
+    "birthplace": "Rinascita",
+    "rabelle": "Congenital",
+    "version": "2.2",
+    "role": "Support / DPS",
+    "description": "Fisalia matron veiled in poison and grace. Her jellyfish dreams corrode foes while cradling allies in deep-sea calm.",
+    "forte": {
+      "name": "Deep Reverie",
+      "mark": "Veil droplet",
+      "spectrum": "Jellyfish in dark tide"
+    },
+    "skills": [
+      {
+        "name": "Gentle Tides",
+        "description": "Tidal blasts dealing Havoc damage."
+      },
+      {
+        "name": "Delusive Dive",
+        "description": "Summons dreams that corrode enemies over time."
+      },
+      {
+        "name": "Abyssal Gift",
+        "description": "Tidal embrace healing allies and amplifying damage."
+      }
+    ],
+    "signatureWeaponId": "whispers-of-sirens"
+  },
+  {
+    "id": "roccia",
+    "name": "Roccia",
+    "rarity": 5,
+    "attribute": "Havoc",
+    "element": "Havoc",
+    "weapon": "Gauntlets",
+    "faction": "Troupe of Fools",
+    "birthplace": "Rinascita",
+    "rabelle": "Natural",
+    "version": "2.0",
+    "role": "Sub-DPS",
+    "description": "Masked comedian trailed by the echo Pero. Her stagecraft gathers foes into slapstick traps bursting with havoc.",
+    "forte": {
+      "name": "Stage Trick",
+      "mark": "Mask ribbon",
+      "spectrum": "Curtain in thunder"
+    },
+    "skills": [
+      {
+        "name": "Knock Knock",
+        "description": "Gauntlet comedy combo dealing Havoc damage."
+      },
+      {
+        "name": "Pero's Prank",
+        "description": "Sends Pero to gather and taunt enemies."
+      },
+      {
+        "name": "Grand Applause",
+        "description": "Stage finale bursting gathered foes."
+      }
+    ],
+    "signatureWeaponId": "tragicomedy"
+  },
+  {
+    "id": "zani",
+    "name": "Zani",
+    "rarity": 5,
+    "attribute": "Spectro",
+    "element": "Spectro",
+    "weapon": "Gauntlets",
+    "faction": "Averardo Bank",
+    "birthplace": "Rinascita",
+    "rabelle": "Mutant",
+    "version": "2.3",
+    "role": "Main DPS",
+    "description": "Overworked bank guard who clocks into blazing shifts. Her day-night routine stores light, then spends it in overtime bursts.",
+    "forte": {
+      "name": "Overtime",
+      "mark": "Glasses glint",
+      "spectrum": "Ledger glowing at night"
+    },
+    "skills": [
+      {
+        "name": "Work Ethic",
+        "description": "Precise gauntlet combo dealing Spectro damage."
+      },
+      {
+        "name": "Night Shift",
+        "description": "Defensive stance storing Blaze for counters."
+      },
+      {
+        "name": "Overtime Rush",
+        "description": "Spends stored light for heavy daylight bursts."
+      }
+    ],
+    "signatureWeaponId": "blazing-justice"
+  },
+  {
+    "id": "phoebe",
+    "name": "Phoebe",
+    "rarity": 5,
+    "attribute": "Spectro",
+    "element": "Spectro",
+    "weapon": "Rectifier",
+    "faction": "Order of the Deep",
+    "birthplace": "Rinascita",
+    "rabelle": "Congenital",
+    "version": "2.1",
+    "role": "Sub-DPS",
+    "description": "Devout acolyte whose hymns weigh light and sin. Her chants apply lingering radiance that allies can absolve for bursts.",
+    "forte": {
+      "name": "Absolution",
+      "mark": "Halo ring",
+      "spectrum": "Dawn through chapel glass"
+    },
+    "skills": [
+      {
+        "name": "Sacred Chime",
+        "description": "Bell blasts dealing Spectro damage."
+      },
+      {
+        "name": "Litany",
+        "description": "Hymn applying lingering light to foes."
+      },
+      {
+        "name": "Divine Chorus",
+        "description": "Choir burst detonating radiance for team damage."
+      }
+    ],
+    "signatureWeaponId": "rectifier-of-voyager"
+  },
+  {
+    "id": "cartethyia",
+    "name": "Cartethyia",
+    "rarity": 5,
+    "attribute": "Aero",
+    "element": "Aero",
+    "weapon": "Sword",
+    "faction": "Order of the Deep",
+    "birthplace": "Rinascita",
+    "rabelle": "Unknown",
+    "version": "2.4",
+    "role": "Main DPS",
+    "description": "Blessed maiden bound to the tides and winds. Her forms shift between prayer and blade, summoning storms that cleanse.",
+    "forte": {
+      "name": "Tidal Blessing",
+      "mark": "Brow tide",
+      "spectrum": "White bird over waves"
+    },
+    "skills": [
+      {
+        "name": "Wind of Confession",
+        "description": "Sword hymns dealing Aero damage."
+      },
+      {
+        "name": "Tidecaller",
+        "description": "Summons tides that lift and group foes."
+      },
+      {
+        "name": "Sword of Divinity",
+        "description": "Storm avatar slashing with massive Aero bursts."
+      }
+    ],
+    "signatureWeaponId": "defiers-thorn"
+  },
+  {
+    "id": "ciaccona",
+    "name": "Ciaccona",
+    "rarity": 5,
+    "attribute": "Aero",
+    "element": "Aero",
+    "weapon": "Pistols",
+    "faction": "Troubadours",
+    "birthplace": "Rinascita",
+    "rabelle": "Natural",
+    "version": "2.3",
+    "role": "Support",
+    "description": "Wandering bard whose songs carry the wind. Her verses erode enemy air resistance while hastening ally finales.",
+    "forte": {
+      "name": "Wandering Verse",
+      "mark": "Lute string",
+      "spectrum": "Sheet music in breeze"
+    },
+    "skills": [
+      {
+        "name": "Melodic Shots",
+        "description": "Rhythmic pistol combo dealing Aero damage."
+      },
+      {
+        "name": "Ballad Field",
+        "description": "Song circle reducing Aero resistance."
+      },
+      {
+        "name": "Grand Finale",
+        "description": "Chorus burst buffing team Aero damage."
+      }
+    ],
+    "signatureWeaponId": "pistols-of-voyager"
+  },
+  {
+    "id": "augusta",
+    "name": "Augusta",
+    "rarity": 5,
+    "attribute": "Electro",
+    "element": "Electro",
+    "weapon": "Broadblade",
+    "faction": "Septimont",
+    "birthplace": "Septimont",
+    "rabelle": "Congenital",
+    "version": "2.5",
+    "role": "Main DPS",
+    "description": "Septimont's war-leader crowned in thunder. Her arena authority stacks glory into sky-splitting executions.",
+    "forte": {
+      "name": "Imperial Thunder",
+      "mark": "Laurel spark",
+      "spectrum": "Eagle over colosseum"
+    },
+    "skills": [
+      {
+        "name": "Gloria",
+        "description": "Broadblade drills dealing Electro damage."
+      },
+      {
+        "name": "Triumph",
+        "description": "War cry granting might and gathering foes."
+      },
+      {
+        "name": "Eternal Empire",
+        "description": "Skyfall judgment with massive Electro damage."
+      }
+    ],
+    "signatureWeaponId": "verdant-summit"
+  },
+  {
+    "id": "iuno",
+    "name": "Iuno",
+    "rarity": 5,
+    "attribute": "Aero",
+    "element": "Aero",
+    "weapon": "Gauntlets",
+    "faction": "Septimont",
+    "birthplace": "Septimont",
+    "rabelle": "Congenital",
+    "version": "2.6",
+    "role": "Support",
+    "description": "Twin-oracle of moon and mirth whose palms read the winds. She blesses allies with lunar tides and swift fortune.",
+    "forte": {
+      "name": "Lunar Omen",
+      "mark": "Moon bracelet",
+      "spectrum": "Twin moons over arena"
+    },
+    "skills": [
+      {
+        "name": "Moon Palm",
+        "description": "Flowing strikes dealing Aero damage."
+      },
+      {
+        "name": "Tidal Omen",
+        "description": "Moon field healing and speeding allies."
+      },
+      {
+        "name": "Fateful Cycle",
+        "description": "Lunar burst granting team-wide blessings."
+      }
+    ],
+    "signatureWeaponId": "gauntlets-of-voyager"
+  },
+  {
+    "id": "phrolova",
+    "name": "Phrolova",
+    "rarity": 5,
+    "attribute": "Havoc",
+    "element": "Havoc",
+    "weapon": "Rectifier",
+    "faction": "Fractsidus",
+    "birthplace": "Rinascita",
+    "rabelle": "Unknown",
+    "version": "2.5",
+    "role": "Sub-DPS",
+    "description": "Fractsidus composer who conducts swarms like strings. Her dissonant score lingers, echoing through every ally strike.",
+    "forte": {
+      "name": "Dissonance",
+      "mark": "Baton tip",
+      "spectrum": "Black keys in fog"
+    },
+    "skills": [
+      {
+        "name": "Hush",
+        "description": "Dark pulses dealing Havoc damage."
+      },
+      {
+        "name": "Swarm Sonata",
+        "description": "Summons echoes that fight alongside allies."
+      },
+      {
+        "name": "Requiem",
+        "description": "Cacophony burst with lingering damage zones."
+      }
+    ],
+    "signatureWeaponId": "whispers-of-sirens"
+  },
+  {
+    "id": "galbrena",
+    "name": "Galbrena",
+    "rarity": 5,
+    "attribute": "Fusion",
+    "element": "Fusion",
+    "weapon": "Pistols",
+    "faction": "Fractsidus",
+    "birthplace": "Unknown",
+    "rabelle": "Mutant",
+    "version": "2.6",
+    "role": "Main DPS",
+    "description": "Fractsidus enforcer wreathed in living flame. Her bullet waltz ignites marks that bloom into repeated detonations.",
+    "forte": {
+      "name": "Crimson Waltz",
+      "mark": "Coat ember",
+      "spectrum": "Moth in wildfire"
+    },
+    "skills": [
+      {
+        "name": "Ashen Rounds",
+        "description": "Pistol combo dealing Fusion damage."
+      },
+      {
+        "name": "Ignition Mark",
+        "description": "Applies embers that allies can detonate."
+      },
+      {
+        "name": "Wildfire Requiem",
+        "description": "Inferno waltz with repeated explosions."
+      }
+    ],
+    "signatureWeaponId": "undying-flame"
+  },
+  {
+    "id": "mornye",
+    "name": "Mornye",
+    "rarity": 5,
+    "attribute": "Havoc",
+    "element": "Havoc",
+    "weapon": "Broadblade",
+    "faction": "Gloomy Choir",
+    "birthplace": "Rinascita",
+    "rabelle": "Mutant",
+    "version": "2.7",
+    "role": "Main DPS",
+    "description": "Choir knight who turned mourning into momentum. Her dusk edge grows heavier with each vow kept in battle.",
+    "forte": {
+      "name": "Dusk Vow",
+      "mark": "Blade notch",
+      "spectrum": "Crow over dusk bells"
+    },
+    "skills": [
+      {
+        "name": "Mourning Edge",
+        "description": "Broadblade combo dealing Havoc damage."
+      },
+      {
+        "name": "Choir Guard",
+        "description": "Stance storing grief into damage stacks."
+      },
+      {
+        "name": "Elegy Fall",
+        "description": "Dusk cleave spending stacks for burst damage."
+      }
+    ],
+    "signatureWeaponId": "lustrous-razor"
+  },
+  {
+    "id": "chisa",
+    "name": "Chisa",
+    "rarity": 5,
+    "attribute": "Glacio",
+    "element": "Glacio",
+    "weapon": "Sword",
+    "faction": "Snowbreak Shrine",
+    "birthplace": "Huanglong",
+    "rabelle": "Congenital",
+    "version": "2.7",
+    "role": "Main DPS",
+    "description": "Shrine dancer who seals winter into steps. Her snowfall seals stack until a flawless pirouette shatters them.",
+    "forte": {
+      "name": "Snow Seal",
+      "mark": "Hairpin frost",
+      "spectrum": "Crane over frozen lake"
+    },
+    "skills": [
+      {
+        "name": "Winter Steps",
+        "description": "Sword dance dealing Glacio damage."
+      },
+      {
+        "name": "Snowfall Seal",
+        "description": "Places seals slowing and marking foes."
+      },
+      {
+        "name": "Pirouette Shatter",
+        "description": "Spin detonating seals for heavy damage."
+      }
+    ],
+    "signatureWeaponId": "lumingloss"
+  },
+  {
+    "id": "lynae",
+    "name": "Lynae",
+    "rarity": 4,
+    "attribute": "Spectro",
+    "element": "Spectro",
+    "weapon": "Rectifier",
+    "faction": "Pioneer Association",
+    "birthplace": "Jinzhou",
+    "rabelle": "Natural",
+    "version": "2.4",
+    "role": "Support",
+    "description": "Field medic who maps ley lines like veins. Her lantern pulses mend allies and reveal hidden currents.",
+    "forte": {
+      "name": "Lantern Vein",
+      "mark": "Lantern glow",
+      "spectrum": "Fireflies over marsh"
+    },
+    "skills": [
+      {
+        "name": "Vein Pulse",
+        "description": "Light pulses dealing Spectro damage."
+      },
+      {
+        "name": "Mending Lantern",
+        "description": "Deploys a lantern healing over time."
+      },
+      {
+        "name": "Ley Surge",
+        "description": "Burst cleansing and boosting ally energy."
+      }
+    ],
+    "signatureWeaponId": "rectifier-of-voyager"
+  },
+  {
+    "id": "sigrika",
+    "name": "Sigrika",
+    "rarity": 4,
+    "attribute": "Electro",
+    "element": "Electro",
+    "weapon": "Pistols",
+    "faction": "Septimont Scouts",
+    "birthplace": "Septimont",
+    "rabelle": "Natural",
+    "version": "2.5",
+    "role": "Sub-DPS",
+    "description": "Scout sharpshooter who never misses a signal. Her storm flares tag foes for coordinated volleys.",
+    "forte": {
+      "name": "Signal Storm",
+      "mark": "Scope spark",
+      "spectrum": "Beacon in thunderhead"
+    },
+    "skills": [
+      {
+        "name": "Scout Rounds",
+        "description": "Pistol combo dealing Electro damage."
+      },
+      {
+        "name": "Flare Tag",
+        "description": "Marks foes raising team coordinated damage."
+      },
+      {
+        "name": "Storm Call",
+        "description": "Beacon barrage with area Electro bursts."
+      }
+    ],
+    "signatureWeaponId": "novaburst"
+  },
+  {
+    "id": "lucilla",
+    "name": "Lucilla",
+    "rarity": 4,
+    "attribute": "Havoc",
+    "element": "Havoc",
+    "weapon": "Rectifier",
+    "faction": "Fisalia Choir",
+    "birthplace": "Rinascita",
+    "rabelle": "Mutant",
+    "version": "2.2",
+    "role": "Sub-DPS",
+    "description": "Choir understudy who sings to the abyss. Her low tides corrode armor while lulling allies into focus.",
+    "forte": {
+      "name": "Low Hymn",
+      "mark": "Throat pearl",
+      "spectrum": "Shell in dark water"
+    },
+    "skills": [
+      {
+        "name": "Abyss Notes",
+        "description": "Dark blasts dealing Havoc damage."
+      },
+      {
+        "name": "Sinking Choir",
+        "description": "Tide reducing enemy defense."
+      },
+      {
+        "name": "Pearl Requiem",
+        "description": "Burst with corrosion and team buffs."
+      }
+    ],
+    "signatureWeaponId": "whispers-of-sirens"
+  },
+  {
+    "id": "hiyuki",
+    "name": "Hiyuki",
+    "rarity": 4,
+    "attribute": "Glacio",
+    "element": "Glacio",
+    "weapon": "Pistols",
+    "faction": "Northern Envoys",
+    "birthplace": "Huanglong",
+    "rabelle": "Natural",
+    "version": "2.6",
+    "role": "Sub-DPS",
+    "description": "Snow courier whose letters always arrive frozen but intact. Her ice stamps slow pursuers and hasten deliveries.",
+    "forte": {
+      "name": "Frost Post",
+      "mark": "Satchel seal",
+      "spectrum": "Snow rabbit tracks"
+    },
+    "skills": [
+      {
+        "name": "Post Rounds",
+        "description": "Pistol combo dealing Glacio damage."
+      },
+      {
+        "name": "Ice Stamp",
+        "description": "Slowing seal boosting ally pursuit."
+      },
+      {
+        "name": "Blizzard Delivery",
+        "description": "Hail barrage with area control."
+      }
+    ],
+    "signatureWeaponId": "pistols-of-voyager"
+  },
+  {
+    "id": "aemeath",
+    "name": "Aemeath",
+    "rarity": 5,
+    "attribute": "Spectro",
+    "element": "Spectro",
+    "weapon": "Sword",
+    "faction": "Black Shores",
+    "birthplace": "Black Shores",
+    "rabelle": "Unknown",
+    "version": "2.5",
+    "role": "Main DPS",
+    "description": "Archivist of drifting stars who duels with measured light. Her catalogued strikes accelerate with every indexed foe.",
+    "forte": {
+      "name": "Star Index",
+      "mark": "Lens glint",
+      "spectrum": "Comet over archive"
+    },
+    "skills": [
+      {
+        "name": "Indexed Strikes",
+        "description": "Sword combo dealing Spectro damage."
+      },
+      {
+        "name": "Catalog",
+        "description": "Marks foes raising follow-up damage."
+      },
+      {
+        "name": "Supernova Entry",
+        "description": "Archival burst with scaling light damage."
+      }
+    ],
+    "signatureWeaponId": "emerald-of-genesis"
+  },
+  {
+    "id": "qiuyuan",
+    "name": "Qiuyuan",
+    "rarity": 5,
+    "attribute": "Glacio",
+    "element": "Glacio",
+    "weapon": "Gauntlets",
+    "faction": "Mountain Sect",
+    "birthplace": "Huanglong",
+    "rabelle": "Congenital",
+    "version": "2.8",
+    "role": "Main DPS",
+    "description": "Hermit martial artist who spars with autumn frost. His stillness stores cold that erupts in single crushing palms.",
+    "forte": {
+      "name": "Autumn Stillness",
+      "mark": "Fist frost",
+      "spectrum": "Dry leaf on ice"
+    },
+    "skills": [
+      {
+        "name": "Falling Leaf Fist",
+        "description": "Gauntlet combo dealing Glacio damage."
+      },
+      {
+        "name": "Still Pond",
+        "description": "Stance storing frost into palm charges."
+      },
+      {
+        "name": "Winter Quake",
+        "description": "Crushing palm releasing stored cold."
+      }
+    ],
+    "signatureWeaponId": "autumn-fist"
+  },
+  {
+    "id": "denia",
+    "name": "Denia",
+    "rarity": 4,
+    "attribute": "Aero",
+    "element": "Aero",
+    "weapon": "Sword",
+    "faction": "Ragunna Wind Guild",
+    "birthplace": "Rinascita",
+    "rabelle": "Natural",
+    "version": "2.3",
+    "role": "Support",
+    "description": "Rooftop messenger who outruns every gale. Her tailwinds speed allies and scatter grouped foes.",
+    "forte": {
+      "name": "Tailwind",
+      "mark": "Scarf gust",
+      "spectrum": "Pigeon over tiles"
+    },
+    "skills": [
+      {
+        "name": "Gust Cuts",
+        "description": "Sword combo dealing Aero damage."
+      },
+      {
+        "name": "Uplift",
+        "description": "Tailwind speeding allies and lifting foes."
+      },
+      {
+        "name": "Storm Post",
+        "description": "Cyclone delivering team buffs and damage."
+      }
+    ],
+    "signatureWeaponId": "sword-of-voyager"
+  },
+  {
+    "id": "luuk-herssen",
+    "name": "Luuk Herssen",
+    "rarity": 4,
+    "attribute": "Fusion",
+    "element": "Fusion",
+    "weapon": "Gauntlets",
+    "faction": "Forge Union",
+    "birthplace": "New Federation",
+    "rabelle": "Natural",
+    "version": "2.1",
+    "role": "Main DPS",
+    "description": "Forge boxer whose gloves glow with furnace heat. His heated rounds stagger guards and melt armor.",
+    "forte": {
+      "name": "Furnace Heart",
+      "mark": "Glove coil",
+      "spectrum": "Sparks in foundry"
+    },
+    "skills": [
+      {
+        "name": "Forge Combo",
+        "description": "Heated punches dealing Fusion damage."
+      },
+      {
+        "name": "Stoke",
+        "description": "Heats gloves boosting stagger damage."
+      },
+      {
+        "name": "Meltdown",
+        "description": "Furnace burst melting enemy toughness."
+      }
+    ],
+    "signatureWeaponId": "gauntlets-of-voyager"
+  },
+  {
+    "id": "rebecca",
+    "name": "Rebecca",
+    "rarity": 4,
+    "attribute": "Electro",
+    "element": "Electro",
+    "weapon": "Sword",
+    "faction": "Montelli Guards",
+    "birthplace": "Rinascita",
+    "rabelle": "Natural",
+    "version": "2.0",
+    "role": "Sub-DPS",
+    "description": "Guard captain whose rapier fences lightning. Her duelist marks punish lone targets with precise shocks.",
+    "forte": {
+      "name": "Duelist Spark",
+      "mark": "Rapier tip",
+      "spectrum": "Candle in storm"
+    },
+    "skills": [
+      {
+        "name": "Fencing Lessons",
+        "description": "Rapier combo dealing Electro damage."
+      },
+      {
+        "name": "En Garde",
+        "description": "Duel mark raising single-target damage."
+      },
+      {
+        "name": "Thunder Riposte",
+        "description": "Counter burst with chained shocks."
+      }
+    ],
+    "signatureWeaponId": "lumingloss"
+  },
+  {
+    "id": "lumi",
+    "name": "Lumi",
+    "rarity": 4,
+    "attribute": "Electro",
+    "element": "Electro",
+    "weapon": "Broadblade",
+    "faction": "Lollo Logistics",
+    "birthplace": "Rinascita",
+    "rabelle": "Natural",
+    "version": "1.2",
+    "role": "Sub-DPS",
+    "description": "Cheerful courier who delivers thunder by hand. Her navigation hound fetches targets for shocking drop-offs.",
+    "forte": {
+      "name": "Delivery Spark",
+      "mark": "Cap badge",
+      "spectrum": "Parcel in lightning"
+    },
+    "skills": [
+      {
+        "name": "Parcel Swings",
+        "description": "Broadblade combo dealing Electro damage."
+      },
+      {
+        "name": "Fetch",
+        "description": "Hound marks a target for coordinated shocks."
+      },
+      {
+        "name": "Express Thunder",
+        "description": "Delivery burst with area Electro damage."
+      }
+    ],
+    "signatureWeaponId": "broadblade-of-voyager"
+  },
+  {
+    "id": "buling",
+    "name": "Buling",
+    "rarity": 4,
+    "attribute": "Glacio",
+    "element": "Glacio",
+    "weapon": "Rectifier",
+    "faction": "Lollo Logistics",
+    "birthplace": "Rinascita",
+    "rabelle": "Natural",
+    "version": "2.0",
+    "role": "Support",
+    "description": "Lumi's earnest partner who keeps ledgers and spirits warm. Her frosty receipts slow foes while refunding ally energy.",
+    "forte": {
+      "name": "Ledger Frost",
+      "mark": "Ledger clip",
+      "spectrum": "Receipt snowflakes"
+    },
+    "skills": [
+      {
+        "name": "Ledger Notes",
+        "description": "Frost pulses dealing Glacio damage."
+      },
+      {
+        "name": "Refund",
+        "description": "Slowing field restoring ally energy."
+      },
+      {
+        "name": "Year-End Gift",
+        "description": "Burst healing and cleansing allies."
+      }
+    ],
+    "signatureWeaponId": "rectifier-of-voyager"
+  },
+  {
+    "id": "xiangli-yao",
+    "name": "Xiangli Yao",
+    "rarity": 5,
+    "attribute": "Electro",
+    "element": "Electro",
+    "weapon": "Gauntlets",
+    "faction": "Huaxu Academy",
+    "birthplace": "Jinzhou",
+    "rabelle": "Mutant",
+    "version": "1.2",
+    "role": "Main DPS",
+    "description": "Academy prodigy who treats combat like arithmetic. His piano of thunder solves enemies with calculated hypercubes.",
+    "forte": {
+      "name": "Hypercube",
+      "mark": "Visor grid",
+      "spectrum": "Abacus in lightning"
+    },
+    "skills": [
+      {
+        "name": "Calculus Fist",
+        "description": "Gauntlet combo dealing Electro damage."
+      },
+      {
+        "name": "Deduction",
+        "description": "Deploys hypercube for coordinated shocks."
+      },
+      {
+        "name": "Proof Complete",
+        "description": "Overclocked burst with massive Electro damage."
+      }
+    ],
+    "signatureWeaponId": "veritys-handle"
+  },
+  {
+    "id": "camellya",
+    "name": "Camellya",
+    "rarity": 5,
+    "attribute": "Havoc",
+    "element": "Havoc",
+    "weapon": "Sword",
+    "faction": "Black Shores",
+    "birthplace": "Black Shores",
+    "rabelle": "Mutant",
+    "version": "1.4",
+    "role": "Main DPS",
+    "description": "Bloom Bearer who seeks only worthy duels. Her vines bloom with each cut, spiraling into a beautiful, consuming frenzy.",
+    "forte": {
+      "name": "Burgeoning",
+      "mark": "Thorn vine",
+      "spectrum": "Red bloom in fog"
+    },
+    "skills": [
+      {
+        "name": "Vine Lash",
+        "description": "Sword combo dealing Havoc damage."
+      },
+      {
+        "name": "Ephemeral Vow",
+        "description": "Vine snare boosting basic damage."
+      },
+      {
+        "name": "Blossoming",
+        "description": "Frenzy state with spinning area slashes."
+      }
+    ],
+    "signatureWeaponId": "lumingloss"
+  },
+  {
+    "id": "geshu-lin",
+    "name": "Geshu Lin",
+    "rarity": 5,
+    "attribute": "Aero",
+    "element": "Aero",
+    "weapon": "Broadblade",
+    "faction": "Midnight Rangers",
+    "birthplace": "Huanglong",
+    "rabelle": "Congenital",
+    "version": "2.8",
+    "role": "Main DPS",
+    "description": "Legendary general whose name still steadies the border. His lone march summons gales that answer only to resolve.",
+    "forte": {
+      "name": "Lone March",
+      "mark": "Cape wind",
+      "spectrum": "Banner on a cliff"
+    },
+    "skills": [
+      {
+        "name": "Border Oath",
+        "description": "Broadblade combo dealing Aero damage."
+      },
+      {
+        "name": "Gale Command",
+        "description": "War horn gathering foes into storms."
+      },
+      {
+        "name": "Unfallen Wall",
+        "description": "Avatar of wind with sweeping executions."
+      }
+    ],
+    "signatureWeaponId": "verdant-summit"
+  },
+  {
+    "id": "scar",
+    "name": "Scar",
+    "rarity": 5,
+    "attribute": "Havoc",
+    "element": "Havoc",
+    "weapon": "Pistols",
+    "faction": "Fractsidus",
+    "birthplace": "Unknown",
+    "rabelle": "Unknown",
+    "version": "2.8",
+    "role": "Main DPS",
+    "description": "Fractsidus overseer who smiles at the end of reason. His card tricks gamble with chaos for devastating payoffs.",
+    "forte": {
+      "name": "Gamble",
+      "mark": "Card edge",
+      "spectrum": "Grin in the dark"
+    },
+    "skills": [
+      {
+        "name": "Dealt Hand",
+        "description": "Pistol tricks dealing Havoc damage."
+      },
+      {
+        "name": "Ante Up",
+        "description": "Gamble stacks raising risk and reward."
+      },
+      {
+        "name": "All In",
+        "description": "Chaos barrage spending stacks for bursts."
+      }
+    ],
+    "signatureWeaponId": "gamble-of-fate"
+  },
+  {
+    "id": "abby",
+    "name": "Abby",
+    "rarity": 4,
+    "attribute": "Spectro",
+    "element": "Spectro",
+    "weapon": "Rectifier",
+    "faction": "Independent",
+    "birthplace": "Unknown",
+    "rabelle": "Unknown",
+    "version": "1.0",
+    "role": "Support",
+    "description": "Tiny echo companion with a huge appetite for time. Its nibbles restore energy and cheer the whole party.",
+    "forte": {
+      "name": "Snack Time",
+      "mark": "Belly glow",
+      "spectrum": "Crumb stars"
+    },
+    "skills": [
+      {
+        "name": "Nibble",
+        "description": "Light bites dealing Spectro damage."
+      },
+      {
+        "name": "Share Snack",
+        "description": "Treat restoring ally energy."
+      },
+      {
+        "name": "Feast",
+        "description": "Joyful burst with team-wide buffs."
+      }
+    ],
+    "signatureWeaponId": "rectifier-of-voyager"
+  },
+  {
+    "id": "fleurdelys",
+    "name": "Fleurdelys",
+    "rarity": 5,
+    "attribute": "Spectro",
+    "element": "Spectro",
+    "weapon": "Broadblade",
+    "faction": "Order of the Deep",
+    "birthplace": "Rinascita",
+    "rabelle": "Unknown",
+    "version": "2.4",
+    "role": "Main DPS",
+    "description": "Sword-saint of the deep wrapped in lily light. Her tides of blessing turn mourning into unstoppable radiance.",
+    "forte": {
+      "name": "Lily Tide",
+      "mark": "Blade petal",
+      "spectrum": "White lily on waves"
+    },
+    "skills": [
+      {
+        "name": "Petal Cuts",
+        "description": "Broadblade hymns dealing Spectro damage."
+      },
+      {
+        "name": "Tide of Mercy",
+        "description": "Blessing field boosting damage and healing."
+      },
+      {
+        "name": "Saint's Judgment",
+        "description": "Luminous execution with massive bursts."
+      }
+    ],
+    "signatureWeaponId": "lily-broadblade"
+  },
+  {
+    "id": "xinyi",
+    "name": "Xinyi",
+    "rarity": 4,
+    "attribute": "Electro",
+    "element": "Electro",
+    "weapon": "Gauntlets",
+    "faction": "Jinzhou Patrol",
+    "birthplace": "Jinzhou",
+    "rabelle": "Natural",
+    "version": "1.0",
+    "role": "Support",
+    "description": "Night-shift patroller who naps between lightning rounds. Her sleepy jabs still land with crackling punctuality.",
+    "forte": {
+      "name": "Night Watch",
+      "mark": "Badge spark",
+      "spectrum": "Lantern in rain"
+    },
+    "skills": [
+      {
+        "name": "Sleepy Jab",
+        "description": "Gauntlet combo dealing Electro damage."
+      },
+      {
+        "name": "Roll Call",
+        "description": "Beacon marking foes for team hits."
+      },
+      {
+        "name": "Wake Up",
+        "description": "Alarm burst with area shocks and buffs."
+      }
+    ],
+    "signatureWeaponId": "gauntlets-of-voyager"
   }
 ]

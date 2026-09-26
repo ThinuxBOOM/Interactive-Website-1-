@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lore records and timeline of Solaris-3. Unofficial fan archive." />
+  <title>Lore — Solaris-3 Fan Archive</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/pages.css" />
+</head>
+<body>
+  <a class="skip-link" href="#timeline-rail">Skip to timeline</a>
+
+  <header data-shared-nav>
+    <nav class="nav-inner" aria-label="Primary">
+      <a class="nav-brand" href="index.html">Wuthering <span>Waves</span> · Solaris-3</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resonators.html">Resonators</a></li>
+        <li><a href="echoes.html">Echoes</a></li>
+        <li><a href="weapons.html">Weapons</a></li>
+        <li><a href="atlas.html">Atlas</a></li>
+        <li><a href="lore.html">Lore</a></li>
+        <li><a href="quests.html">Quests</a></li>
+        <li><a href="bestiary.html">Bestiary</a></li>
+        <li><a href="convene.html">Convene</a></li>
+        <li><a href="team.html">Team</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="page-lore">
+    <div class="page-head">
+      <span class="section-eyebrow">Records of Solaris-3</span>
+      <h1>Lore &amp; History</h1>
+      <p class="lead">The Lament, the Sentinels, and the factions that rose in their wake.</p>
+    </div>
+
+    <section class="archive-section" aria-label="Lore entries">
+      <h2>Factions &amp; Records</h2>
+      <div id="lore-grid" class="archive-grid" aria-live="polite">
+        <noscript><p>Enable JavaScript to browse lore records.</p></noscript>
+      </div>
+    </section>
+
+    <section class="archive-section" aria-label="Timeline">
+      <h2>Timeline of Solaris-3</h2>
+      <div id="timeline-rail" class="timeline-rail" aria-live="polite">
+        <noscript><p>Enable JavaScript to view the timeline.</p></noscript>
+      </div>
+      <!-- js/pages/lore.js (lore agent): renders #lore-grid cards + #timeline-rail nodes from data/lore.json -->
+    </section>
+  </main>
+
+  <footer data-shared-footer>
+    <p><strong>Wuthering Waves — Solaris-3 Fan Hub.</strong> Unofficial fan archive. All art © Kuro Games. Not affiliated.</p>
+    <p>Wuthering Waves and all related characters, names, and assets are trademarks of their respective owners. This is a non-commercial fan project for education and entertainment.</p>
+  </footer>
+
+  <script type="module" src="js/common/layout.js"></script>
+</body>
+</html>

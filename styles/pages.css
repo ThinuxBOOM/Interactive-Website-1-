@@ -1,0 +1,264 @@
+/* styles/pages.css — archive page components (extends styles/main.css theme).
+   Vanilla CSS, mobile-first. Companion to main.css vars:
+   --bg #060913 · --cyan #67e8f9 · --gold #f5c518 */
+
+.page-head { max-width: 1100px; margin: 0 auto; padding: 3rem 1rem 0.5rem; }
+.page-head h1 { font-size: clamp(1.9rem, 5vw, 3rem); }
+.archive-section { padding-top: 1.5rem; }
+
+/* ---------- Hub cards (index.html) ---------- */
+.hub-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 1.6rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+.hub-card a {
+  display: block;
+  height: 100%;
+  padding: 1.3rem 1.2rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--panel);
+  text-decoration: none;
+  backdrop-filter: blur(8px);
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+.hub-card a:hover {
+  transform: translateY(-3px);
+  border-color: rgba(103, 232, 249, 0.5);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45), 0 0 24px rgba(103, 232, 249, 0.12);
+}
+.hub-card h3 { color: var(--text); margin-bottom: 0.3rem; }
+.hub-card p { font-size: 0.92rem; margin: 0; }
+.hub-card .hub-cta { display: inline-block; margin-top: 0.7rem; font-size: 0.85rem; color: var(--cyan); }
+
+/* ---------- Archive grids (resonators/echoes/weapons/bestiary/lore) ---------- */
+.archive-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 1.2rem 0;
+}
+.archive-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.1rem;
+  backdrop-filter: blur(8px);
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+.archive-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(103, 232, 249, 0.5);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45), 0 0 24px rgba(103, 232, 249, 0.12);
+}
+.search-row { display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; margin: 1rem 0; }
+.search-input {
+  flex: 1 1 220px;
+  background: rgba(13, 22, 40, 0.6);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--text);
+  padding: 0.55rem 1rem;
+  font-size: 0.92rem;
+}
+.search-input::placeholder { color: var(--muted); }
+
+/* ---------- Resonator dossier (resonator.html) ---------- */
+.dossier {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 1.6rem;
+  margin: 1.2rem 0;
+}
+.dossier-head { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
+.dossier-portrait {
+  width: 5rem; height: 5rem; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-heading); font-size: 2rem; font-weight: 700;
+  color: #060913; background: linear-gradient(135deg, var(--cyan), #a5f3fc);
+  flex: 0 0 auto;
+}
+.dossier-loading { color: var(--muted); }
+.dossier-tabs { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 1rem 0; }
+.dossier-tab {
+  border: 1px solid var(--line); background: transparent; color: var(--muted);
+  border-radius: 999px; padding: 0.42rem 0.95rem; cursor: pointer; font-size: 0.86rem;
+}
+.dossier-tab.active { background: var(--cyan); border-color: var(--cyan); color: #06202a; font-weight: 600; }
+
+/* ---------- Sonata builder (echoes.html) ---------- */
+.sonata-panel, .banner-panel, .region-panel, .quest-panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.2rem;
+  margin: 1.2rem 0;
+}
+.sonata-slots { display: flex; gap: 0.6rem; flex-wrap: wrap; margin: 0.8rem 0; }
+.sonata-slot {
+  min-width: 96px; min-height: 64px; flex: 1 1 96px;
+  border: 1px dashed rgba(103, 232, 249, 0.35); border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--muted); font-size: 0.85rem; text-align: center; padding: 0.5rem;
+}
+.sonata-slot.filled { border-style: solid; border-color: rgba(103,232,249,0.55); color: var(--text); }
+#sonata-preview { font-size: 0.92rem; color: var(--muted); border-left: 3px solid var(--cyan); padding-left: 0.7rem; }
+
+/* ---------- Banner switcher (convene.html) ---------- */
+.banner-switcher { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 1rem 0; }
+.banner-btn {
+  border: 1px solid var(--line); background: rgba(13,22,40,0.6); color: var(--muted);
+  border-radius: 999px; padding: 0.5rem 1.1rem; cursor: pointer; font-size: 0.88rem;
+}
+.banner-btn.active { background: var(--gold); border-color: var(--gold); color: #231a02; font-weight: 600; }
+.banner-art {
+  border: 1px solid var(--line); border-radius: var(--radius);
+  min-height: 140px; display: flex; align-items: center; justify-content: center;
+  color: var(--muted); margin-bottom: 1rem;
+  background: linear-gradient(135deg, rgba(103,232,249,0.08), rgba(245,197,24,0.07));
+}
+
+/* ---------- Nation tabs (atlas.html) ---------- */
+.nation-tabs { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 1rem 0; }
+.nation-tab {
+  border: 1px solid var(--line); background: rgba(13,22,40,0.6); color: var(--muted);
+  border-radius: 999px; padding: 0.5rem 1.1rem; cursor: pointer; font-size: 0.88rem;
+}
+.nation-tab.active { background: var(--cyan); border-color: var(--cyan); color: #06202a; font-weight: 600; }
+#region-list { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; gap: 0.7rem; }
+#region-list li {
+  border: 1px solid var(--line); border-radius: 10px; padding: 0.8rem 1rem;
+  background: rgba(255,255,255,0.02);
+}
+
+/* ---------- Timeline rail (lore.html) ---------- */
+.timeline-rail {
+  position: relative; margin: 1.5rem 0 1rem; padding-left: 1.4rem;
+  border-left: 2px solid rgba(103, 232, 249, 0.3);
+  display: grid; gap: 1rem;
+}
+.timeline-node { position: relative; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 0.9rem 1rem; }
+.timeline-node::before {
+  content: ""; position: absolute; left: calc(-1.4rem - 6px); top: 1.1rem;
+  width: 10px; height: 10px; border-radius: 50%;
+  background: var(--cyan); box-shadow: 0 0 12px rgba(103,232,249,0.7);
+}
+
+/* ---------- Accordion / quest tree (quests.html) ---------- */
+.quest-node { border: 1px solid var(--line); border-radius: 10px; margin-bottom: 0.6rem; background: var(--panel); overflow: hidden; }
+.quest-toggle {
+  width: 100%; text-align: left; background: none; border: 0; color: var(--text);
+  padding: 0.85rem 1rem; font-size: 0.95rem; cursor: pointer;
+  display: flex; justify-content: space-between; gap: 0.6rem; align-items: center;
+}
+.quest-toggle:hover { color: var(--cyan); }
+.quest-body { padding: 0 1rem 0.9rem; color: var(--muted); font-size: 0.9rem; }
+.quest-node[data-open="false"] .quest-body { display: none; }
+
+/* ---------- Bestiary (bestiary.html) ---------- */
+.bestiary-filters { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 1rem 0; }
+.bestiary-card .threat { font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--danger); }
+
+/* ---------- Placeholder shells ---------- */
+.shell-note {
+  border: 1px dashed rgba(103,232,249,0.35); border-radius: var(--radius);
+  padding: 0.9rem 1.1rem; color: var(--muted); font-size: 0.88rem; margin: 1rem 0;
+}
+
+/* ---------- Breakpoints ---------- */
+@media (min-width: 640px) {
+  .hub-grid { grid-template-columns: repeat(2, 1fr); }
+  .archive-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1024px) {
+  .hub-grid { grid-template-columns: repeat(3, 1fr); }
+  .archive-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* ---------- Reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .hub-card a, .archive-card { transition: none; }
+  [data-reveal] { opacity: 1 !important; transform: none !important; }
+}
+
+/* ---------- Audit polish: classes emitted by js/pages/* (minimal) ---------- */
+/* Hub live counts */
+.hub-count {
+  display: inline-block; margin-top: 0.5rem; margin-right: 0.5rem;
+  font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--cyan); border: 1px solid var(--line); border-radius: 999px;
+  padding: 0.15rem 0.6rem; background: var(--cyan-dim);
+}
+/* Resonator roster (js/pages/resonators.js) */
+.res-card-link { display: block; height: 100%; color: inherit; text-decoration: none; }
+.res-art {
+  width: 100%; aspect-ratio: 16 / 10; height: auto; border-radius: 12px; object-fit: cover;
+  object-position: center 18%;
+  display: block; margin-bottom: 0.7rem; background: rgba(255,255,255,0.04);
+  border: 1px solid var(--line);
+}
+.res-avatar { /* base in main.css; pages fallback size */ }
+.res-name { margin-bottom: 0.3rem; }
+.res-badges { display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 0.5rem 0; }
+.res-badge {
+  font-size: 0.75rem; border: 1px solid var(--line); border-radius: 999px;
+  padding: 0.15rem 0.6rem; color: var(--muted);
+}
+.res-meta { font-size: 0.85rem; color: var(--muted); margin: 0; }
+.res-count, .weapon-count {
+  font-size: 0.85rem; color: var(--muted); margin: 0.6rem 0 0;
+  border-left: 3px solid var(--cyan); padding-left: 0.7rem;
+}
+.res-empty { color: var(--muted); padding: 1rem 0; }
+/* Dossier (js/pages/resonator-detail.js) */
+.dossier-back { margin: 0 0 1rem; }
+.dossier-art { width: 100%; max-height: 380px; aspect-ratio: 21 / 9; height: auto; border-radius: 20px; object-fit: cover; object-position: center 15%; border: 1px solid var(--line); background: rgba(255,255,255,0.04); }
+.dossier-lore, .dossier-forte, .dossier-skills, .dossier-foot { margin-top: 1.2rem; }
+.dossier-forte dl { display: grid; grid-template-columns: auto 1fr; gap: 0.3rem 0.9rem; margin: 0; }
+.dossier-forte dt { color: var(--muted); font-size: 0.85rem; }
+.dossier-forte dd { margin: 0; }
+/* Weapons (js/pages/weapons.js) */
+.weapon-card h3 { margin-bottom: 0.3rem; }
+.weapon-card:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
+/* Echoes (js/pages/echoes.js) */
+.echo-card { cursor: pointer; }
+.echo-card:hover { border-color: rgba(103,232,249,0.5); }
+.echo-card:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
+.echo-card.selected {
+  border-color: rgba(103,232,249,0.65);
+  box-shadow: 0 0 0 1px rgba(103,232,249,0.35), 0 0 24px rgba(103,232,249,0.14);
+}
+/* Atlas regions (js/pages/atlas.js) */
+.region-overview h3 { margin-bottom: 0.2rem; }
+.region-meta, .region-factions { font-size: 0.88rem; color: var(--muted); margin: 0.3rem 0 0; }
+.region-item { display: flex; justify-content: space-between; gap: 0.7rem; align-items: baseline; }
+.region-name { color: var(--text); font-weight: 600; }
+.region-nation { font-size: 0.8rem; color: var(--muted); }
+/* Lore (js/pages/lore.js) */
+.lore-card .tag { margin-bottom: 0.5rem; display: inline-block; }
+/* Quests (js/pages/quests.js) */
+.quest-acts { list-style: none; margin: 0.6rem 0 0; padding: 0; display: grid; gap: 0.5rem; }
+.quest-act {
+  border: 1px solid rgba(103,232,249,0.12); border-radius: 8px;
+  padding: 0.55rem 0.7rem; background: rgba(255,255,255,0.02);
+}
+.quest-node[data-open="false"] .quest-body { display: none; }
+/* Bestiary (js/pages/bestiary.js) */
+.bestiary-card h3 { margin: 0.3rem 0; }
+.bestiary-drop { font-size: 0.88rem; color: var(--muted); margin: 0.4rem 0 0; }
+/* Convene (js/convene.js) */
+.pull-card { border: 1px solid var(--line); border-radius: 10px; }
+.history-empty { color: var(--muted); font-size: 0.9rem; }
+/* Team (js/team.js) */
+.team-panel { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.2rem; }
+.team-slot.selected { border-color: var(--gold); }
+.slot-name { font-weight: 600; display: block; }
+.slot-meta { font-size: 0.85rem; color: var(--muted); display: block; }
+.roster-btn.in-team { border-color: rgba(103,232,249,0.6); background: var(--cyan-dim); }
+/* Banner tabs keyboard focus */
+.banner-btn:focus-visible, .nation-tab:focus-visible, .filter-btn:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }

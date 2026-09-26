@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Crownless",
+    "class": "Overlord",
+    "attribute": "Havoc",
+    "drop": "Havoc Prism"
+  },
+  {
+    "name": "Mech Abomination",
+    "class": "Overlord",
+    "attribute": "Electro",
+    "drop": "Electro Conductor"
+  },
+  {
+    "name": "Mourning Aix",
+    "class": "Overlord",
+    "attribute": "Spectro",
+    "drop": "Spectro Shard"
+  },
+  {
+    "name": "Feilian Beringal",
+    "class": "Overlord",
+    "attribute": "Aero",
+    "drop": "Aero Feather"
+  },
+  {
+    "name": "Lampylumen Myriad",
+    "class": "Overlord",
+    "attribute": "Glacio",
+    "drop": "Glacio Frost"
+  },
+  {
+    "name": "Inferno Rider",
+    "class": "Overlord",
+    "attribute": "Fusion",
+    "drop": "Fusion Igniter"
+  },
+  {
+    "name": "Tempest Memphis",
+    "class": "Overlord",
+    "attribute": "Electro",
+    "drop": "Thunder Membrane"
+  },
+  {
+    "name": "Thundering Memphis",
+    "class": "Overlord",
+    "attribute": "Electro",
+    "drop": "Thunder Core"
+  },
+  {
+    "name": "Impermanence Heron",
+    "class": "Overlord",
+    "attribute": "Havoc",
+    "drop": "Havoc Feather"
+  },
+  {
+    "name": "Dreamless",
+    "class": "Calamity",
+    "attribute": "Havoc",
+    "drop": "Nightmare Essence"
+  },
+  {
+    "name": "Bell-Borne Geochelone",
+    "class": "Overlord",
+    "attribute": "Glacio",
+    "drop": "Bell Fragment"
+  },
+  {
+    "name": "Jué",
+    "class": "Calamity",
+    "attribute": "Spectro",
+    "drop": "Celestial Scale"
+  },
+  {
+    "name": "Hecate",
+    "class": "Overlord",
+    "attribute": "Havoc",
+    "drop": "Shadow Stinger"
+  },
+  {
+    "name": "Sentry Construct",
+    "class": "Elite",
+    "attribute": "Spectro",
+    "drop": "Construct Lens"
+  },
+  {
+    "name": "Stonewall Bracer",
+    "class": "Elite",
+    "attribute": "Glacio",
+    "drop": "Stone Carapace"
+  }
+]

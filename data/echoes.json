@@ -1,0 +1,200 @@
+[
+  {
+    "id": "crownless",
+    "name": "Crownless",
+    "class": "Overlord",
+    "cost": 4,
+    "sonatas": [
+      "sun-sinking-eclipse",
+      "lingering-tunes"
+    ],
+    "skill": "Summon a Havoc slash that deals heavy damage and boosts Havoc DMG."
+  },
+  {
+    "id": "mech-abomination",
+    "name": "Mech Abomination",
+    "class": "Overlord",
+    "cost": 4,
+    "sonatas": [
+      "rejuvenating-glow",
+      "lingering-tunes"
+    ],
+    "skill": "Transform and slam with Electro fists, restoring HP on hit."
+  },
+  {
+    "id": "mourning-aix",
+    "name": "Mourning Aix",
+    "class": "Overlord",
+    "cost": 4,
+    "sonatas": [
+      "celestial-light",
+      "moonlit-clouds"
+    ],
+    "skill": "Dive as a mournful eagle dealing Spectro damage in a wide arc."
+  },
+  {
+    "id": "feilian-beringal",
+    "name": "Feilian Beringal",
+    "class": "Overlord",
+    "cost": 4,
+    "sonatas": [
+      "sierra-gale",
+      "moonlit-clouds"
+    ],
+    "skill": "Whirlwind kicks dealing Aero damage and boosting Aero DMG."
+  },
+  {
+    "id": "lampylumen-myriad",
+    "name": "Lampylumen Myriad",
+    "class": "Overlord",
+    "cost": 4,
+    "sonatas": [
+      "freezing-frost",
+      "moonlit-clouds"
+    ],
+    "skill": "Freeze tide dealing Glacio damage with extended chill."
+  },
+  {
+    "id": "inferno-rider",
+    "name": "Inferno Rider",
+    "class": "Overlord",
+    "cost": 4,
+    "sonatas": [
+      "molten-rift",
+      "lingering-tunes"
+    ],
+    "skill": "Ride a blazing bike through foes, dealing Fusion damage over a path."
+  },
+  {
+    "id": "tempest-memphis",
+    "name": "Tempest Memphis",
+    "class": "Overlord",
+    "cost": 4,
+    "sonatas": [
+      "void-thunder",
+      "moonlit-clouds"
+    ],
+    "skill": "Thunderous stomps dealing Electro damage with rapid strikes."
+  },
+  {
+    "id": "thundering-memphis",
+    "name": "Thundering Memphis",
+    "class": "Overlord",
+    "cost": 4,
+    "sonatas": [
+      "void-thunder",
+      "lingering-tunes"
+    ],
+    "skill": "Charged thunder charge dealing Electro damage and boosting Liberation."
+  },
+  {
+    "id": "impermanence-heron",
+    "name": "Impermanence Heron",
+    "class": "Overlord",
+    "cost": 4,
+    "sonatas": [
+      "moonlit-clouds",
+      "rejuvenating-glow"
+    ],
+    "skill": "Graceful wing burst dealing Havoc damage and restoring team energy."
+  },
+  {
+    "id": "dreamless",
+    "name": "Dreamless",
+    "class": "Calamity",
+    "cost": 4,
+    "sonatas": [
+      "sun-sinking-eclipse",
+      "celestial-light"
+    ],
+    "skill": "Unleash a nightmare maw dealing massive Havoc damage."
+  },
+  {
+    "id": "bellborne-geochelone",
+    "name": "Bell-Borne Geochelone",
+    "class": "Overlord",
+    "cost": 4,
+    "sonatas": [
+      "rejuvenating-glow",
+      "moonlit-clouds"
+    ],
+    "skill": "Ring the bell for team shields and Glacio damage on shockwave."
+  },
+  {
+    "id": "jue",
+    "name": "Jué",
+    "class": "Calamity",
+    "cost": 4,
+    "sonatas": [
+      "celestial-light",
+      "rejuvenating-glow"
+    ],
+    "skill": "Call a celestial gaze dealing Spectro damage and speeding team cooldowns."
+  },
+  {
+    "id": "hecate",
+    "name": "Hecate",
+    "class": "Overlord",
+    "cost": 4,
+    "sonatas": [
+      "sun-sinking-eclipse",
+      "void-thunder"
+    ],
+    "skill": "Shadow blades dealing Havoc damage with stacking corrosion."
+  },
+  {
+    "id": "sentry-construct",
+    "name": "Sentry Construct",
+    "class": "Elite",
+    "cost": 3,
+    "sonatas": [
+      "celestial-light",
+      "lingering-tunes"
+    ],
+    "skill": "Fire a Spectro beam that pierces grouped enemies."
+  },
+  {
+    "id": "stonewall-bracer",
+    "name": "Stonewall Bracer",
+    "class": "Elite",
+    "cost": 3,
+    "sonatas": [
+      "rejuvenating-glow",
+      "moonlit-clouds"
+    ],
+    "skill": "Raise stone shields blocking damage and taunting nearby foes."
+  },
+  {
+    "id": "violet-heron",
+    "name": "Violet-Feathered Heron",
+    "class": "Elite",
+    "cost": 3,
+    "sonatas": [
+      "sierra-gale",
+      "moonlit-clouds"
+    ],
+    "skill": "Gust feathers dealing Aero damage and lifting light enemies."
+  },
+  {
+    "id": "glacio-dreadmane",
+    "name": "Glacio Dreadmane",
+    "class": "Common",
+    "cost": 1,
+    "sonatas": [
+      "freezing-frost",
+      "lingering-tunes"
+    ],
+    "skill": "Icy pounce dealing Glacio damage with brief freeze."
+  },
+  {
+    "id": "fusion-prism",
+    "name": "Fusion Prism",
+    "class": "Common",
+    "cost": 1,
+    "sonatas": [
+      "molten-rift",
+      "moonlit-clouds"
+    ],
+    "skill": "Ember burst dealing Fusion damage in a small radius."
+  }
+]
